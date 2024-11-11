@@ -38,7 +38,7 @@ function About() {
           My research interest is to democratize <a className="hl">visual data analysis</a> and <a className="hl">data storytelling</a> through the intersection of Data Science (<a className="hl2">DS</a>), Artificial Intelligence (<a className="hl2">AI</a>), Visualization (<a className="hl2">VIS</a>),and  Human-Computer Interaction (<a className="hl2">HCI</a>).  I aim to empower everyone to be the analyst and story director of their data. Specifically,
           <ul>
             <li><a className="hl">Visual Data Dnalysis</a>: leverage multiple modalities (e.g., natural language, examples, and WIMP) to help users express diverse data anlysis intents; utilize AI to extract data insights, generate data visualizations, and understand visualizations, enabling intuitive analysis. </li>
-            <li><a className="hl">Data Storytelling</a>: transform visualizations into engaging data stories, such as data videos, by designing and developing authoring systems, automatic recommendation algorithms, multi-agent systems, human-AI collaboration paradigms, and their scenario applications. </li>
+            <li><a className="hl">Data Storytelling</a>: transform visualizations into engaging data stories, such as data videos, by designing and developing authoring systems, automatic recommendation algorithms, multi-agent systems, human-AI collaboration paradigms, and their scenario applications, facilitating communication. </li>
           </ul>
           <img src="./img/overview.png" style={{ display: 'block', margin: '0 auto', maxWidth: '73%', height: 'auto' }} />
         </p>

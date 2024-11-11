@@ -65,7 +65,7 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2024.08</span>
-          <span className="item">🎉 Our paper "PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis" was accepted by IEEE VIS 2024 and recoginzed as the <a className="text-hl" href="https://ieeevis.org/year/2024/program/awards/awards.html" target="_blank">Best Paper Award</a> in IEEE VIS 2024! </span>
+          <span className="item">🎉 Our paper "PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis" was accepted by IEEE VIS 2024 and recoginzed as the <a className="text-hl" href="https://ieeevis.org/year/2024/program/awards/awards.html" target="_blank">Best Short Paper Award</a>! </span>
         </div>
         <div className="news">
           <span className="time">2024.08</span>
