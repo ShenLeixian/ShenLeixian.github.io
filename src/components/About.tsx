@@ -17,6 +17,7 @@ function About() {
               <span>Ph.D. Candidate </span>
               <span>@ HKUST, Hong Kong</span>
             </span>
+            {/* <span style={{ fontSize: 16, fontFamily: 'sans-serif', fontWeight: 300, paddingTop: 3 }}> Human-AI Collaboration / Data Storytelling /  Data Visualization / Human-Computer Interaction  </span> */}
             <span style={{ fontSize: 16, fontFamily: 'sans-serif', fontWeight: 300, paddingTop: 3 }}> Human-AI Collaboration 🤝 / Data Storytelling 💭 /  Data Visualization 📈 / Human-Computer Interaction 🤖  </span>
           </div>
 

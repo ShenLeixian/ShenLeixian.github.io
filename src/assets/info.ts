@@ -87,7 +87,7 @@ export const paperList: PAPER[] = [
       "Paper": "./pdf/NotePlayer.pdf",
       "DOI": "https://doi.org/10.1145/3654777.3676410",
       "arXiv": "https://arxiv.org/abs/2308.04040",
-      "homepage": "https://datavideos.github.io/NotePlayer/"
+      "Homepage": "https://datavideos.github.io/NotePlayer/"
     } as MATERIALS
   },
   {

@@ -38,7 +38,7 @@ function App() {
       <br/>
         Last updated by @ Leixian Shen: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short' })}
         <br/>
-        (Template from <a href='https://shuxinhuan.github.io/' >Xinhuan Shu</a>) 
+        (Template from <a href='https://shuxinhuan.github.io/' >Prof. Xinhuan Shu</a>) 
       </div>
     </>
   )
