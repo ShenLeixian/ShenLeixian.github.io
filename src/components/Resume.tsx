@@ -12,7 +12,7 @@ function Resume () {
         <div className='address'>
           <span>Department of Computer Science and Engineering</span>
           <span>The Hong Kong University of Science and Technology</span>
-          <span>Big Data Institute.</span>
+          <span>Big Data Institute</span>
           <span>Lo Ka Chung University Center</span>
         </div>
         <div className='misc'>
@@ -26,7 +26,7 @@ function Resume () {
       <h3>Education</h3>
       <div>
         <div className="entry">
-          <span className="time">2023.08 - now</span>
+          <span className="time">2023.08 - present</span>
           <span className="item">
             <span className='cv-hl'>The Hong Kong University of Science and Technology (HKUST), Hong Kong</span>
             <br />
@@ -52,7 +52,7 @@ function Resume () {
           <span className="item">
             <span className='cv-hl'>Nanjing University of Posts and Telecommunications (NJUPT), Nanjing</span>
             <br />
-            <span>Bachelor in Software Engineering (<i className="fas fa-award"></i> Graduation with Honor)</span>
+            <span>Bachelor in Software Engineering (Ranked First, <i className="fas fa-award"></i> Graduation with Honor)</span>
             <br />
             <span><em>Thesis: </em>"High-Precision Indoor Wireless Localization Based on UHF RFID" (<i className="fas fa-award"></i> Excellent Undergraduate Thesis of Jiangsu Province)</span>
             <br />
@@ -421,7 +421,7 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className='cv-hl'>CHI LBW </span> 2024, <span className='cv-hl'>C&C </span> 2025
+          <span className='cv-hl'>ACM CHI LBW </span> 2024, <span className='cv-hl'>ACM C&C </span> 2025
         </span>
       </div>
     </div>
