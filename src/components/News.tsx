@@ -47,6 +47,10 @@ function News () {
       <Divider />
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
+      <div className="news">
+          <span className="time">2024.11</span>
+          <span className="item">🎉 My master thesis was selected for <a className="text-hl" href="https://mp.weixin.qq.com/s/jjrRQ2tlBL_SBXrBmhqj0g" target="_blank">CSIG Incentive Program for Master Thesis</a> (top 10)! </span>
+        </div>
         <div className="news">
           <span className="time">2024.11</span>
           <span className="item">💬 Pass <a className="text-hl" href="https://cse.hkust.edu.hk/pg/defenses/F24/lshenaj-06-11-2024.html" target="_blank">PhD Qualifying Examination</a> and become a PhD candidate. </span>
@@ -60,12 +64,12 @@ function News () {
           <span className="item">🎉 Our paper "Data Playwright: Authoring Data Videos with Annotated Narration" was accepted by IEEE TVCG. </span>
         </div>
         <div className="news">
-          <span className="time">2024.09</span>
-          <span className="item">🎉 Our paper "ChartInsights: Evaluating Multimodal Large Language Models for Low-Level Chart Question Answering" was accepted by EMNLP 2024 findings. </span>
+          <span className="time">2024.08</span>
+          <span className="item">🎉 Our paper "PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis" was accepted by IEEE VIS 2024 and recoginzed as the <a className="text-hl" href="https://ieeevis.org/year/2024/program/awards/awards.html" target="_blank">Best Short Paper Award</a>! </span>
         </div>
         <div className="news">
           <span className="time">2024.08</span>
-          <span className="item">🎉 Our paper "PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis" was accepted by IEEE VIS 2024 and recoginzed as the <a className="text-hl" href="https://ieeevis.org/year/2024/program/awards/awards.html" target="_blank">Best Short Paper Award</a>! </span>
+          <span className="item">🎉 Our paper "ChartInsights: Evaluating Multimodal Large Language Models for Low-Level Chart Question Answering" was accepted by EMNLP 2024 findings. </span>
         </div>
         <div className="news">
           <span className="time">2024.08</span>

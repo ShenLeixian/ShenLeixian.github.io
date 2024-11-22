@@ -42,21 +42,29 @@ function Resume () {
             <br />
             <span>Master in Software Engineering (<i className="fas fa-award"></i> Graduation with Honor)</span>
             <br />
-            <span><em>Thesis: </em>"Research on Task-Driven Visualization Recommendation" (<i className="fas fa-award"></i> Excellent Master Thesis of THU)</span>
-            <br />
             <span><em>Advisor: </em><a className="text-hl" href="https://www.thss.tsinghua.edu.cn/faculty/wangjianmin.htm" target="_blank">Prof. Jianmin Wang</a> and <a className="text-hl" href="https://www.thss.tsinghua.edu.cn/faculty/shenenya.htm" target="_blank">Prof. Enya Shen</a></span> 
-          </span>
+            <br />
+            <span><em>Thesis: </em>"Research on Task-Driven Visualization Recommendation"</span>
+            <br />
+            <span>(<i className="fas fa-award"></i> CSIG Incentive Program for Master Thesis, top 10)</span>
+            <br />
+            <span>(<i className="fas fa-award"></i> Excellent Master Thesis of THU, Ranked First)</span>
+         </span>
         </div>
         <div className="entry">
           <span className="time">2016.09 - 2020.06</span>
           <span className="item">
             <span className='cv-hl'>Nanjing University of Posts and Telecommunications (NJUPT), Nanjing</span>
             <br />
-            <span>Bachelor in Software Engineering (Ranked First, <i className="fas fa-award"></i> Graduation with Honor)</span>
-            <br />
-            <span><em>Thesis: </em>"High-Precision Indoor Wireless Localization Based on UHF RFID" (<i className="fas fa-award"></i> Excellent Undergraduate Thesis of Jiangsu Province)</span>
+            <span>Bachelor in Software Engineering (<i className="fas fa-award"></i> Graduation with Honor, Ranked First)</span>
             <br />
             <span><em>Advisor: </em><a className="text-hl" href="https://yjs.njupt.edu.cn/dsgl/nocontrol/college/dsfcxq.htm?dsJbxxId=9B9D05C52A832DCFE050007F01006EFE" target="_blank">Prof. Fu Xiao</a> and <a className="text-hl" href="https://yjs.njupt.edu.cn/dsgl/nocontrol/college/dsfcxq.htm?dsJbxxId=9B9D05C52C752DCFE050007F01006EFE" target="_blank">Prof. He Xu</a></span> 
+            <br />
+            <span><em>Thesis: </em>"High-Precision Indoor Wireless Localization Based on UHF RFID"</span>
+            <br />
+            <span>(<i className="fas fa-award"></i> Excellent Undergraduate Thesis of Jiangsu Province)</span>
+            <br />
+            <span>(<i className="fas fa-award"></i> Excellent Undergraduate Thesis of NJUPT)</span>
           </span>
         </div>
       </div>
@@ -70,7 +78,7 @@ function Resume () {
             <br />
             <span>Research Intern in DKI (Data, Knowledge, and Intelligence) Group </span>
             <br />
-            <span><i className="fas fa-award"></i> "Star of Tomorrow" Excellent Internship Award</span>
+            <span>(<i className="fas fa-award"></i> "Star of Tomorrow" Excellent Internship Award)</span>
             <br />
             <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/wangyun/" target="_blank">Dr. Yun Wang</a></span> 
             <br />
@@ -88,7 +96,7 @@ function Resume () {
           </span>
         </div>
       </div>
-
+      
 
       <h3 id="awards">AWARDS</h3>
       <h4>Honors and Scholarships</h4>
@@ -96,7 +104,13 @@ function Resume () {
       <div className="entry">
           <span className="time">2024</span>
           <span className="item">
-            <a className="text-hl" href="https://ieeevis.org/year/2024/program/awards/awards.html" target="_blank">IEEE VIS 2024 Best Short Paper</a>
+            <a className="text-hl" href="https://mp.weixin.qq.com/s/jjrRQ2tlBL_SBXrBmhqj0g" target="_blank">CSIG Incentive Program for Master Thesis</a> (Top 10)
+          </span>
+        </div>
+      <div className="entry">
+          <span className="time">2024</span>
+          <span className="item">
+            <a className="text-hl" href="https://ieeevis.org/year/2024/program/awards/awards.html" target="_blank">IEEE VIS 2024 Best Short Paper </a> (Top 1%)
           </span>
         </div>
         <div className="entry">
@@ -126,7 +140,7 @@ function Resume () {
         <div className="entry">
           <span className="time">2022</span>
           <span className="item">
-          <a className="text-hl" href="http://www.cikmconference.org/2022/best-paper.html" target="_blank">CIKM 2022 Best Paper Honorable Mention (Demo Track)</a>
+          <a className="text-hl" href="http://www.cikmconference.org/2022/best-paper.html" target="_blank">CIKM 2022 Best Demo Paper Honorable Mention</a> (Top 5%)
           </span>
         </div>
         <div className="entry">
