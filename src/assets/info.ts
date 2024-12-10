@@ -68,7 +68,7 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pdf/Data_Director.pdf",
-      // "DOI": "https://doi.org/10.1109/TVCG.2024.3411575",
+      "DOI": "https://doi.org/10.1109/GEN4DS63889.2024.00008",
       "arXiv": "https://arxiv.org/abs/2408.03876"
     } as MATERIALS
   },
@@ -120,6 +120,7 @@ export const paperList: PAPER[] = [
     "honor": "Best Paper Award (Top 1%)",
     "materials": {
       "Paper": "./pdf/PyGWalker.pdf",
+      "DOI": "https://doi.org/10.1109/VIS55277.2024.00009",
       "arXiv": "https://arxiv.org/abs/2406.11637",
       "Github": "https://github.com/Kanaries/pygwalker",
       "Homepage": "https://kanaries.net/pygwalker"
@@ -223,7 +224,7 @@ export const paperList: PAPER[] = [
     "type": "Journal",
     "year": 2022,
     "abbr": "CIKM'22",
-    "full": "The 31st ACM International Conference on Information and Knowledge Management (Demo Track), 2022",
+    "full": "ACM International Conference on Information and Knowledge Management (Demo Track), 2022",
     "honor": "Best Paper Honorable Mention (Top 5%)",
     "materials": {
       "Paper": "./pdf/GALVIS_CIKM22.pdf",

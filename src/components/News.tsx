@@ -49,7 +49,7 @@ function News () {
       <div className="content">
       <div className="news">
           <span className="time">2024.11</span>
-          <span className="item">🎉 My master thesis was selected for <a className="text-hl" href="https://mp.weixin.qq.com/s/jjrRQ2tlBL_SBXrBmhqj0g" target="_blank">CSIG Incentive Program for Master Thesis</a> (top 10)! </span>
+          <span className="item">🎉 My master thesis was selected for <a className="text-hl" href="https://www.csig.org.cn/59/202411/52240.html" target="_blank">CSIG Incentive Program for Master Thesis</a> (CSIG硕士学位论文激励计划, 10 in China)! </span>
         </div>
         <div className="news">
           <span className="time">2024.11</span>

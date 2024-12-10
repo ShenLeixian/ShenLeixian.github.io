@@ -32,7 +32,8 @@ function Resume () {
             <br />
             <span>Ph.D. in Computer Science and Engineering</span>
             <br />
-            <span><em>Advisor: </em><a className="text-hl" href="http://huamin.org/" target="_blank">Prof. Huamin Qu</a></span>
+            <span><em>Advisor: </em><a className="text-hl" href="http://huamin.org/" target="_blank">Prof. Huamin Qu</a></span> 
+            {/* in VisLab */}
           </span>
         </div>
         <div className="entry">
@@ -43,10 +44,11 @@ function Resume () {
             <span>Master in Software Engineering (<i className="fas fa-award"></i> Graduation with Honor)</span>
             <br />
             <span><em>Advisor: </em><a className="text-hl" href="https://www.thss.tsinghua.edu.cn/faculty/wangjianmin.htm" target="_blank">Prof. Jianmin Wang</a> and <a className="text-hl" href="https://www.thss.tsinghua.edu.cn/faculty/shenenya.htm" target="_blank">Prof. Enya Shen</a></span> 
+            {/* in Institute of Information System and Engineering */}
             <br />
             <span><em>Thesis: </em>"Research on Task-Driven Visualization Recommendation"</span>
             <br />
-            <span>(<i className="fas fa-award"></i> CSIG Incentive Program for Master Thesis, top 10)</span>
+            <span>(<i className="fas fa-award"></i> CSIG Incentive Program for Master Thesis, 10 in China)</span>
             <br />
             <span>(<i className="fas fa-award"></i> Excellent Master Thesis of THU, Ranked First)</span>
          </span>
@@ -59,12 +61,13 @@ function Resume () {
             <span>Bachelor in Software Engineering (<i className="fas fa-award"></i> Graduation with Honor, Ranked First)</span>
             <br />
             <span><em>Advisor: </em><a className="text-hl" href="https://yjs.njupt.edu.cn/dsgl/nocontrol/college/dsfcxq.htm?dsJbxxId=9B9D05C52A832DCFE050007F01006EFE" target="_blank">Prof. Fu Xiao</a> and <a className="text-hl" href="https://yjs.njupt.edu.cn/dsgl/nocontrol/college/dsfcxq.htm?dsJbxxId=9B9D05C52C752DCFE050007F01006EFE" target="_blank">Prof. He Xu</a></span> 
+            {/* in Jiangsu High Technology Research Key Laboratory for Wireless Sensor Networks */}
             <br />
             <span><em>Thesis: </em>"High-Precision Indoor Wireless Localization Based on UHF RFID"</span>
             <br />
             <span>(<i className="fas fa-award"></i> Excellent Undergraduate Thesis of Jiangsu Province)</span>
             <br />
-            <span>(<i className="fas fa-award"></i> Excellent Undergraduate Thesis of NJUPT)</span>
+            <span>(<i className="fas fa-award"></i> Excellent Undergraduate Thesis of NJUPT, Ranked First)</span>
           </span>
         </div>
       </div>
@@ -104,7 +107,7 @@ function Resume () {
       <div className="entry">
           <span className="time">2024</span>
           <span className="item">
-            <a className="text-hl" href="https://mp.weixin.qq.com/s/jjrRQ2tlBL_SBXrBmhqj0g" target="_blank">CSIG Incentive Program for Master Thesis</a> (Top 10)
+            <a className="text-hl" href="https://www.csig.org.cn/59/202411/52240.html" target="_blank">CSIG Incentive Program for Master Thesis</a> (CSIG硕士学位论文激励计划, 10 in China)
           </span>
         </div>
       <div className="entry">
@@ -116,7 +119,7 @@ function Resume () {
         <div className="entry">
           <span className="time">2023</span>
           <span className="item">
-            RedBird PhD Award of HKUST
+            RedBird PhD Award of HKUST (HKD 40k+42k)
           </span>
         </div>
         <div className="entry">
@@ -188,7 +191,7 @@ function Resume () {
         <div className="entry">
           <span className="time">2019</span>
           <span className="item">
-            Innovation Pioneer of NJUPT (Only ten in NJUPT)
+            Innovation Pioneer of NJUPT (Top 10)
           </span>
         </div>
         <div className="entry">
@@ -445,7 +448,7 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className='cv-hl'>IEEE VIS</span> 2022-24, <span className='cv-hl'>CHI</span> 2024-25, <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>EuroVis</span> 2023-24, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>PacificVis</span> 2023, <span className='cv-hl'>PacificVis (TVCG track)</span> 2025, <span className='cv-hl'>IDC</span> 2024, <span className='cv-hl'>ChinaVis</span> 2022-24, <span className='cv-hl'>C&C</span> 2024
+          <span className='cv-hl'>IEEE VIS</span> 2022-24, <span className='cv-hl'>CHI</span> 2024-25, <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>EuroVis</span> 2023-25, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>PacificVis</span> 2023, <span className='cv-hl'>PacificVis (TVCG track)</span> 2025, <span className='cv-hl'>IDC</span> 2024, <span className='cv-hl'>ChinaVis</span> 2022-24, <span className='cv-hl'>C&C</span> 2024
           <br/>
           * Two Special Recognitions for Outstanding Reviews for CHI 2024
         </span>
