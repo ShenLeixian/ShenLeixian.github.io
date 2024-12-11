@@ -91,23 +91,6 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story"],
-    "thumb": "images/NarrativePlayer.png",
-    "title": "Narrative Player: Reviving Data Narratives with Visuals",
-    "authorsA": "Zekai Shao, ",
-    "authorsB": ", Haotian Li, Yi Shan, Huamin Qu, Yun Wang, Siming Chen",
-    "type": "Journal",
-    "year": 2024,
-    "abbr": "arXiv'24",
-    "full": "Preprint, 2024",
-    "honor": "",
-    "materials": {
-      "Paper": "./pdf/NarrativePlayer.pdf",
-      "arXiv": "https://arxiv.org/abs/2410.03268",
-      "Homepage": "https://datavideos.github.io/Narrative_Player/"
-    } as MATERIALS
-  },
-  {
     "category": ["vda"],
     "thumb": "images/PyGWalker.png",
     "title": "PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis",
@@ -143,6 +126,40 @@ export const paperList: PAPER[] = [
       "arXiv": "https://arxiv.org/abs/2405.07001",
       "Github": "https://github.com/HKUSTDial/ChartInsights",
       "Homepage": "https://chartinsight.github.io/"
+    } as MATERIALS
+  },
+  {
+    "category": ["story"],
+    "thumb": "images/NarrativePlayer.png",
+    "title": "Narrative Player: Reviving Data Narratives with Visuals",
+    "authorsA": "Zekai Shao, ",
+    "authorsB": ", Haotian Li, Yi Shan, Huamin Qu, Yun Wang, Siming Chen",
+    "type": "Journal",
+    "year": 2024,
+    "abbr": "arXiv'24",
+    "full": "Preprint, 2024",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/NarrativePlayer.pdf",
+      "arXiv": "https://arxiv.org/abs/2410.03268",
+      "Homepage": "https://datavideos.github.io/Narrative_Player/"
+    } as MATERIALS
+  },
+  {
+    "category": ["vda"],
+    "thumb": "images/vistroubleshooting.png",
+    "title": "Ask Humans or AI? Exploring Their Roles in Visualization Troubleshooting",
+    "authorsA": "Shuyu Shen, Sirong Lu, ",
+    "authorsB": ", Zhonghua Sheng, Nan Tang, Yuyu Luo",
+    "type": "Journal",
+    "year": 2024,
+    "abbr": "arXiv'24",
+    "full": "Preprint, 2024",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/vistroubleshooting.pdf",
+      "arXiv": "https://arxiv.org/abs/2412.07673",
+      "Github": "https://github.com/HKUSTDial/vistroubleshooting.github.io/"
     } as MATERIALS
   },
   {
