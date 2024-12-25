@@ -128,3 +128,7 @@
   font-weight: 300;
   margin: 0px 15px 0px 4px;
 }
+
+h2 {
+  margin-bottom: 0;
+}

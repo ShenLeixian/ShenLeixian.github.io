@@ -9,10 +9,10 @@ interface ITEM {
   key: paperCategory | 'all';
 }
 
-function Publication () {
+function Publication() {
   const [current, setCurrent] = useState<string>('all')
 
-    const items: ITEM[] = [
+  const items: ITEM[] = [
     // {
     //   label: 'selected',
     //   key: 'selected'
@@ -87,28 +87,48 @@ function Publication () {
     <div id="publication">
       <Divider />
       <div className="sec-title"><span className="bg-hl">Research</span></div>
-      <div style={{marginTop: '1rem'}}>
+      <div style={{ marginTop: '1rem' }}>
         {items.map((item: ITEM) => {
           return (
             <button
-              key={item.key} 
-              className={`tag ${item.key===current ? 'tag-active': ''}`} 
+              key={item.key}
+              className={`tag ${item.key === current ? 'tag-active' : ''}`}
               onClick={() => onClick(item)}
             >
-                {item.label}
+              {item.label}
             </button>)
         })}
       </div>
 
-      <div className="paper-list">
+      {/* <div className="paper-list">
         {getPaperList(current).map((paper: PAPER) => 
           <Paper
             key={paper.title}
             selected={paper}
           />
         )}
+      </div> */}
+
+      <div className="paper-list">
+        {[2024, 2023, 2022, 2021].map((y: number) => {
+          const paperByYear = getPaperList(current).filter((p: PAPER) => p.year === y);
+
+          if (paperByYear.length > 0) {
+            return (
+              <div key={y}>
+                <h2>{y}</h2>
+                {paperByYear.map((paper: PAPER) => (
+                  <Paper
+                    key={paper.title}
+                    selected={paper}
+                  />
+                ))}
+              </div>
+            );
+          }
+        })}
       </div>
-  </div>
+    </div>
   )
 }
 
