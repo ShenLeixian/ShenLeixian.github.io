@@ -113,7 +113,7 @@ function Resume () {
       <div className="entry">
           <span className="time">2024</span>
           <span className="item">
-            <a className="text-hl" href="https://ieeevis.org/year/2024/program/awards/awards.html" target="_blank">IEEE VIS 2024 Best Short Paper </a> (Top 1%)
+            <a className="text-hl" href="https://ieeevis.org/year/2024/program/awards/awards" target="_blank">IEEE VIS 2024 Best Short Paper </a> (Top 1%)
           </span>
         </div>
         <div className="entry">
@@ -325,7 +325,8 @@ function Resume () {
                 <span className='pub-index'>[P{index + 1}]</span>
               </span>
               <span className="item">
-                {paper.authorsA}<span className='cv-hl' style={{borderBottom: '1px solid #000000' }}>Leixian Shen</span>
+              {/* <span><b>[{paper.abbr}]</b></span>  */}
+              {paper.authorsA}<span className='cv-hl' style={{borderBottom: '1px solid #000000' }}>Leixian Shen</span>
                 {paper.authorsB.length > 0 ? <>{paper.authorsB}.</> : <>.</>}
                 <span style={{ fontWeight: 500, color: '#CA662C' }}> {paper.title}</span>.
                 In <em>{paper.full}</em>.

@@ -3,7 +3,7 @@ import './News.css'
 import { useEffect, useState } from 'react'
 
 function News () {
-  const [current, setCurrent] = useState(5)
+  const [current, setCurrent] = useState(6)
   const [sum, setSum] = useState(0)
 
   
@@ -32,13 +32,13 @@ function News () {
   }
 
   const showLess = () => {
-    setCurrent(5)
-    setAttr(5, sum)
+    setCurrent(6)
+    setAttr(6, sum)
   }
 
   useEffect(() => {
     const newSum = document.getElementsByClassName('news').length
-    setAttr(5, newSum)
+    setAttr(6, newSum)
     setSum(newSum)
   }, [sum])
 
@@ -48,36 +48,44 @@ function News () {
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
       <div className="news">
+          <span className="time">2025.01</span>
+          <span className="item">🎉 Our paper "Reflecting on Design Paradigms of Animated Data Video Tools" was conditionally accepted to CHI 2025. </span>
+        </div>
+      <div className="news">
+          <span className="time">2025.01</span>
+          <span className="item">🎉 Our paper "Narrative Player: Reviving Data Narratives with Visuals" was accepted to IEEE TVCG. </span>
+        </div>
+      <div className="news">
           <span className="time">2024.11</span>
-          <span className="item">🎉 My master thesis was selected for <a className="text-hl" href="https://www.csig.org.cn/59/202411/52240.html" target="_blank">CSIG Incentive Program for Master Thesis</a> (CSIG硕士学位论文激励计划, 10 in China)! </span>
+          <span className="item">🎉 My master thesis was selected in the <a className="text-hl" href="https://www.csig.org.cn/69/202411/62240.html" target="_blank">CSIG Incentive Program for Master Thesis</a> (CSIG硕士学位论文激励计划, 10 in China)! </span>
         </div>
         <div className="news">
           <span className="time">2024.11</span>
-          <span className="item">💬 Pass <a className="text-hl" href="https://cse.hkust.edu.hk/pg/defenses/F24/lshenaj-06-11-2024.html" target="_blank">PhD Qualifying Examination</a> and become a PhD candidate. </span>
+          <span className="item">💬 Passed <a className="text-hl" href="https://cse.hkust.edu.hk/pg/defenses/F24/lshenaj-06-11-2024.html" target="_blank">PhD Qualifying Examination</a> and became a PhD candidate. </span>
         </div>
         <div className="news">
           <span className="time">2024.10</span>
-          <span className="item">💬 Presenting our paper "WonderFlow" and "Data Director" at <a className="text-hl" href="https://ieeevis.org/year/2024/program/papers.html?filter=titles" target="_blank">IEEE VIS 2024</a> and serve as a student volunteer. </span>
+          <span className="item">💬 Presented our paper "WonderFlow" and "Data Director" at <a className="text-hl" href="https://ieeevis.org/year/2024/program/papers.html?filter=titles" target="_blank">IEEE VIS 2024</a> and serve as a student volunteer. </span>
         </div>
         <div className="news">
           <span className="time">2024.10</span>
-          <span className="item">🎉 Our paper "Data Playwright: Authoring Data Videos with Annotated Narration" was accepted by IEEE TVCG. </span>
+          <span className="item">🎉 Our paper "Data Playwright: Authoring Data Videos with Annotated Narration" was accepted to IEEE TVCG. </span>
         </div>
         <div className="news">
           <span className="time">2024.08</span>
-          <span className="item">🎉 Our paper "PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis" was accepted by IEEE VIS 2024 and recoginzed as the <a className="text-hl" href="https://ieeevis.org/year/2024/program/awards/awards.html" target="_blank">Best Short Paper Award</a>! </span>
+          <span className="item">🎉 Our paper "PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis" was accepted to IEEE VIS 2024 and recoginzed as the <a className="text-hl" href="https://ieeevis.org/year/2024/program/awards/awards" target="_blank">Best Short Paper Award</a>! </span>
         </div>
         <div className="news">
           <span className="time">2024.08</span>
-          <span className="item">🎉 Our paper "ChartInsights: Evaluating Multimodal Large Language Models for Low-Level Chart Question Answering" was accepted by EMNLP 2024 findings. </span>
+          <span className="item">🎉 Our paper "ChartInsights: Evaluating Multimodal Large Language Models for Low-Level Chart Question Answering" was accepted to EMNLP 2024 findings. </span>
         </div>
         <div className="news">
           <span className="time">2024.08</span>
-          <span className="item">🎉 Our paper "NotePlayer: Engaging Jupyter Notebooks for Dynamic Presentation of Analytical Processes" was accepted by UIST 2024. </span>
+          <span className="item">🎉 Our paper "NotePlayer: Engaging Jupyter Notebooks for Dynamic Presentation of Analytical Processes" was accepted to UIST 2024. </span>
         </div>
         <div className="news">
           <span className="time">2024.08</span>
-          <span className="item">🎉 Our paper "From Data to Story: Towards Automatic Animated Data Video Creation with LLM-based Multi-Agent Systems" was accepted by IEEE VIS 2024 Gen4DS Workshop. </span>
+          <span className="item">🎉 Our paper "From Data to Story: Towards Automatic Animated Data Video Creation with LLM-based Multi-Agent Systems" was accepted to IEEE VIS 2024 Gen4DS Workshop. </span>
         </div>
         <div className="news">
           <span className="time">2024.07</span>
@@ -85,7 +93,7 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2024.06</span>
-          <span className="item">🎉 Our paper "WonderFlow: Narration-Centric Design of Animated Data Videos" was accepted by IEEE TVCG. </span>
+          <span className="item">🎉 Our paper "WonderFlow: Narration-Centric Design of Animated Data Videos" was accepted to IEEE TVCG. </span>
         </div>
         <div className="news">
           <span className="time">2023.10</span>
@@ -97,7 +105,7 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2023.07</span>
-          <span className="item">🎉 Our paper "Data Player: Automatic Generation of Data Videos with Narration-Animation Interplay" was accepted by IEEE VIS 2023. </span>
+          <span className="item">🎉 Our paper "Data Player: Automatic Generation of Data Videos with Narration-Animation Interplay" was accepted to IEEE VIS 2023. </span>
         </div>
         <div className="news">
           <span className="time">2023.06</span>
@@ -111,7 +119,7 @@ function News () {
       
       <div style={{display: 'flex'}}>
         {current < sum ? <Button type="text" onClick={showMore}> ⬇️ Show more</Button> : null}
-        {current > 5 ? <Button type="text" onClick={showLess}>⬆ Show Less</Button> : null}
+        {current > 6 ? <Button type="text" onClick={showLess}>⬆ Show Less</Button> : null}
       </div>
       
     </div>

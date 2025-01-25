@@ -3,6 +3,57 @@ import { MATERIALS, PAPER, PATENT } from "../typings/types"
 export const paperList: PAPER[] = [
   {
     "category": ["story"],
+    "thumb": "images/datavideosurvey.png",
+    "title": "Reflecting on Design Paradigms of Animated Data Video Tools",
+    "authorsA": "",
+    "authorsB": ", Haotian Li, Yun Wang, Huamin Qu",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "CHI'25",
+    "full": "The ACM CHI conference on Human Factors in Computing Systems, 2025",
+    "honor": "",
+    "materials": {
+      // "Paper": "./pdf/Data_Director.pdf",
+      // "DOI": "https://doi.org/10.1109/GEN4DS63889.2024.00008",
+      // "arXiv": "https://arxiv.org/abs/2408.03876"
+    } as MATERIALS
+  },
+  {
+    "category": ["story"],
+    "thumb": "images/NarrativePlayer.png",
+    "title": "Narrative Player: Reviving Data Narratives with Visuals",
+    "authorsA": "Zekai Shao, ",
+    "authorsB": ", Haotian Li, Yi Shan, Huamin Qu, Yun Wang, Siming Chen",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "TVCG'25",
+    "full": "IEEE Transactions on Visualization and Computer Graphics, 2025",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/NarrativePlayer.pdf",
+      "DOI": "https://doi.org/10.1109/TVCG.2025.3530512",
+      "arXiv": "https://arxiv.org/abs/2410.03268",
+      "Homepage": "https://datavideos.github.io/Narrative_Player/"
+    } as MATERIALS
+  },
+  {
+    "category": ["story"],
+    "thumb": "images/MetaRelation.png",
+    "title": "Composing Data Stories with Meta Relations",
+    "authorsA": "Haotian Li, Yu Ying, ",
+    "authorsB": ", Yun Wang, Yingcai Wu, Huamin Qu",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "arXiv'25",
+    "full": "Preprint, 2025",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/MetaRelation.pdf",
+      "arXiv": "https://arxiv.org/abs/2501.03603"
+    } as MATERIALS
+  },
+  {
+    "category": ["story"],
     "thumb": "images/dataplaywright.png",
     "title": "Data Playwright: Authoring Data Videos with Annotated Narration",
     "authorsA": "",
@@ -46,7 +97,7 @@ export const paperList: PAPER[] = [
     "type": "Journal",
     "year": 2024,
     "abbr": "TVCG'24",
-    "full": "IEEE Transactions on Visualization and Computer Graphics, 2024",
+    "full": "IEEE Transactions on Visualization and Computer Graphics (presented at IEEE VIS 2024), 2024",
     "honor": "",
     "materials": {
       "Paper": "./pdf/WonderFlow.pdf",
@@ -126,23 +177,6 @@ export const paperList: PAPER[] = [
       "arXiv": "https://arxiv.org/abs/2405.07001",
       "Github": "https://github.com/HKUSTDial/ChartInsights",
       "Homepage": "https://chartinsight.github.io/"
-    } as MATERIALS
-  },
-  {
-    "category": ["story"],
-    "thumb": "images/NarrativePlayer.png",
-    "title": "Narrative Player: Reviving Data Narratives with Visuals",
-    "authorsA": "Zekai Shao, ",
-    "authorsB": ", Haotian Li, Yi Shan, Huamin Qu, Yun Wang, Siming Chen",
-    "type": "Journal",
-    "year": 2024,
-    "abbr": "arXiv'24",
-    "full": "Preprint, 2024",
-    "honor": "",
-    "materials": {
-      "Paper": "./pdf/NarrativePlayer.pdf",
-      "arXiv": "https://arxiv.org/abs/2410.03268",
-      "Homepage": "https://datavideos.github.io/Narrative_Player/"
     } as MATERIALS
   },
   {

@@ -110,7 +110,7 @@ function Publication() {
       </div> */}
 
       <div className="paper-list">
-        {[2024, 2023, 2022, 2021].map((y: number) => {
+        {[2025, 2024, 2023, 2022, 2021].map((y: number) => {
           const paperByYear = getPaperList(current).filter((p: PAPER) => p.year === y);
 
           if (paperByYear.length > 0) {
