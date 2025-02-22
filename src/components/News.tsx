@@ -48,8 +48,12 @@ function News () {
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
       <div className="news">
-          <span className="time">2025.01</span>
-          <span className="item">🎉 Our paper "Reflecting on Design Paradigms of Animated Data Video Tools" was conditionally accepted to CHI 2025. </span>
+          <span className="time">2025.02</span>
+          <span className="item">🎉 Our paper "Reflecting on Design Paradigms of Animated Data Video Tools" and two Late Breaking Work were conditionally accepted to CHI 2025. </span>
+        </div>
+      <div className="news">
+          <span className="time">2025.02</span>
+          <span className="item">💬  Glad to serve as an Assoiate Chair of ACM Creativity and Cognition 2025. </span>
         </div>
       <div className="news">
           <span className="time">2025.01</span>

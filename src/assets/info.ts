@@ -2,7 +2,7 @@ import { MATERIALS, PAPER, PATENT } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
-    "category": ["story"],
+    "category": ["story","hai", 'selected'],
     "thumb": "images/datavideosurvey.png",
     "title": "Reflecting on Design Paradigms of Animated Data Video Tools",
     "authorsA": "",
@@ -13,9 +13,43 @@ export const paperList: PAPER[] = [
     "full": "The ACM CHI conference on Human Factors in Computing Systems, 2025",
     "honor": "",
     "materials": {
-      // "Paper": "./pdf/Data_Director.pdf",
+      "Paper": "./pdf/DV_Survey.pdf",
       // "DOI": "https://doi.org/10.1109/GEN4DS63889.2024.00008",
-      // "arXiv": "https://arxiv.org/abs/2408.03876"
+      "arXiv": "https://arxiv.org/abs/2502.04801"
+    } as MATERIALS
+  },
+  {
+    "category": ["hai", 'selected'],
+    "thumb": "images/instruction.png",
+    "title": "Prompting Generative AI with Interaction-Augmented Instructions",
+    "authorsA": "",
+    "authorsB": ", Haotian Li, Yifang Wang, Xing Xie, Huamin Qu",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "CHI EA'25",
+    "full": "Extended Abstracts of the ACM CHI conference on Human Factors in Computing Systems, 2025",
+    "honor": "",
+    "materials": {
+      // "Paper": "./pdf/DV_Survey.pdf",
+      // "DOI": "https://doi.org/10.1109/GEN4DS63889.2024.00008",
+      // "arXiv": "https://arxiv.org/abs/2502.04801"
+    } as MATERIALS
+  },
+  {
+    "category": ["story"],
+    "thumb": "images/DVEva.png",
+    "title": "House Advantage or House of Cards? Stacking the Deck for Data Videos Leads to Null Results",
+    "authorsA": "Jen Rogers, Remco Chang, ",
+    "authorsB": ", Evan Peck, Anzu Hakone, Mingwei Li, Kristi Potter, Ab Mosca",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "CHI EA'25",
+    "full": "Extended Abstracts of the ACM CHI conference on Human Factors in Computing Systems, 2025",
+    "honor": "",
+    "materials": {
+      // "Paper": "./pdf/DV_Survey.pdf",
+      // "DOI": "https://doi.org/10.1109/GEN4DS63889.2024.00008",
+      // "arXiv": "https://arxiv.org/abs/2502.04801"
     } as MATERIALS
   },
   {
@@ -37,7 +71,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story"],
+    "category": ["story", "hai"],
     "thumb": "images/MetaRelation.png",
     "title": "Composing Data Stories with Meta Relations",
     "authorsA": "Haotian Li, Yu Ying, ",
@@ -53,7 +87,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story"],
+    "category": ["story", "hai", 'selected'],
     "thumb": "images/dataplaywright.png",
     "title": "Data Playwright: Authoring Data Videos with Annotated Narration",
     "authorsA": "",
@@ -71,7 +105,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story"],
+    "category": ["story", 'selected'],
     "thumb": "images/VIS2023.png",
     "title": "Data Player: Automatic Generation of Data Videos with Narration-Animation Interplay",
     "authorsA": "",
@@ -89,7 +123,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story"],
+    "category": ["story", 'selected'],
     "thumb": "images/CHI2024.png",
     "title": "WonderFlow: Narration-Centric Design of Animated Data Videos",
     "authorsA": "Yun Wang*, ",
@@ -107,7 +141,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story"],
+    "category": ["story", 'selected'],
     "thumb": "images/datadirector.png",
     "title": "From Data to Story: Towards Automatic Animated Data Video Creation with LLM-based Multi-Agent Systems",
     "authorsA": "",
@@ -124,7 +158,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story"],
+    "category": ["story", "hai"],
     "thumb": "images/NotePlayer.png",
     "title": "NotePlayer: Engaging Jupyter Notebooks for Dynamic Presentation of Analytical Processes",
     "authorsA": "Yang Ouyang, ",
@@ -180,7 +214,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["vda"],
+    "category": ["vda", "hai"],
     "thumb": "images/vistroubleshooting.png",
     "title": "Ask Humans or AI? Exploring Their Roles in Visualization Troubleshooting",
     "authorsA": "Shuyu Shen, Sirong Lu, ",
@@ -197,7 +231,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["vda"],
+    "category": ["vda", 'selected'],
     "thumb": "images/TVCG_graph2022.png",
     "title": "Graph Exploration with Embedding-Guided Layouts",
     "authorsA": "",
@@ -215,7 +249,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["vda"],
+    "category": ["vda", "hai"],
     "thumb": "images/VIS2022.png",
     "title": "Towards Natural Language-Based Visualization Authoring",
     "authorsA": "Yun Wang, Zhitao Hou, ",
@@ -250,7 +284,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["vda"],
+    "category": ["vda", "hai", 'selected'],
     "thumb": "images/TVCG2022.png",
     "title": "Towards Natural Language Interfaces for Data Visualization: A Survey",
     "authorsA": "",
@@ -267,7 +301,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["vda"],
+    "category": ["vda", 'selected'],
     "thumb": "images/CIKM2022.png",
     "title": "GALVIS: Visualization Construction through Example-Powered Declarative Programming",
     "authorsA": "",
@@ -283,7 +317,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["vda"],
+    "category": ["vda", 'selected'],
     "thumb": "images/DSE2022.png",
     "title": "Visual Data Analysis with Task-Based Recommendations",
     "authorsA": "",
@@ -301,7 +335,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["vda"],
+    "category": ["vda", 'selected'],
     "thumb": "images/EuroVis2021.png",
     "title": "TaskVis: Task-Oriented Visualization Recommendation",
     "authorsA": "",

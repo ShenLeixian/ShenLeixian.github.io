@@ -13,21 +13,25 @@ function Publication() {
   const [current, setCurrent] = useState<string>('all')
 
   const items: ITEM[] = [
-    // {
-    //   label: 'selected',
-    //   key: 'selected'
-    // },
     {
-      label: 'all',
+      label: 'All',
       key: 'all'
     },
     {
-      label: 'visual data analysis',
+      label: 'Selected',
+      key: 'selected'
+    },
+    {
+      label: 'Data Storytelling',
+      key: 'story'
+    },
+    {
+      label: 'Visual Data Analysis',
       key: 'vda'
     },
     {
-      label: 'data storytelling',
-      key: 'story'
+      label: 'Human-AI Collaboration',
+      key: 'hai'
     }
   ]
 

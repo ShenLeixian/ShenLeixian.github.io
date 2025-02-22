@@ -4,7 +4,7 @@ interface MATERIALS {
 }
 
 // declare const paperCategories = ['va', 'vis+ai', 'story', 'transform', 'art', 'literacy', 'selected', 'others'] as const
-declare const paperCategories = ['vda','story', 'selected', 'others'] as const
+declare const paperCategories = ['vda','story','hai', 'selected', 'others'] as const
 type paperCategory = typeof paperCategories[number]
 
 interface PAPER {
