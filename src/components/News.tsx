@@ -48,12 +48,24 @@ function News () {
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
       <div className="news">
-          <span className="time">2025.02</span>
-          <span className="item">🎉 Our paper "Reflecting on Design Paradigms of Animated Data Video Tools" and two Late Breaking Work were conditionally accepted to CHI 2025. </span>
+          <span className="time">2025.07</span>
+          <span className="item">🎉 Our paper "SceneLoom: Communicating Data with Scene Context" and short paper "ChartMark: A Structured Grammar for Chart Annotation" were accepted to IEEE VIS 2025. See you in Vienna 🇦🇹! </span>
+      </div>
+      <div className="news">
+          <span className="time">2025.07</span>
+          <span className="item">🎉 Two papers about Human-AI Collaboration for code-based problem solving and research narratives crafting were conditionally accepted to UIST 2025. See you in Busan 🇰🇷! </span>
+      </div>
+      <div className="news">
+          <span className="time">2025.05</span>
+          <span className="item">💬 Happy to join Microsoft as a research intern this summer, working with <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/nath/?msockid=3a3da8b9312861113d9dbb76304e6085" target="_blank">Dr. Nathalie Henry Riche</a> and <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/yuyua/" target="_blank">Dr. Yuhui Yuan</a>. </span>
         </div>
       <div className="news">
           <span className="time">2025.02</span>
-          <span className="item">💬  Glad to serve as an Assoiate Chair of ACM Creativity and Cognition 2025. </span>
+          <span className="item">🎉 Our paper "Reflecting on Design Paradigms of Animated Data Video Tools" and two Late Breaking Work were accepted to CHI 2025. See you in Yokohama 🇯🇵! </span>
+        </div>
+      <div className="news">
+          <span className="time">2025.02</span>
+          <span className="item">💬  Glad to serve as an assoiate chair of ACM Creativity & Cognition 2025. </span>
         </div>
       <div className="news">
           <span className="time">2025.01</span>
@@ -61,7 +73,7 @@ function News () {
         </div>
       <div className="news">
           <span className="time">2024.11</span>
-          <span className="item">🎉 My master thesis was selected in the <a className="text-hl" href="https://www.csig.org.cn/69/202411/62240.html" target="_blank">CSIG Incentive Program for Master Thesis</a> (CSIG硕士学位论文激励计划, 10 in China)! </span>
+          <span className="item">🎉 My master thesis was selected in the <a className="text-hl" href="https://www.csig.org.cn/23/202411/52239.html" target="_blank">CSIG Incentive Program for Master Thesis</a> (CSIG硕士学位论文激励计划, 10 in China)! </span>
         </div>
         <div className="news">
           <span className="time">2024.11</span>
@@ -101,7 +113,7 @@ function News () {
         </div>
         <div className="news">
           <span className="time">2023.10</span>
-          <span className="item">💬 Presenting our paper "Data Player" at IEEE VIS 2023 in Melbourne, Australia 🦘. </span>
+          <span className="item">💬 Presenting our paper "Data Player" at IEEE VIS 2023 in Melbourne, Australia 🇦🇺. </span>
         </div>
         <div className="news">
           <span className="time">2023.08</span>

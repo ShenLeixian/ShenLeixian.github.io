@@ -14,13 +14,13 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pdf/DV_Survey.pdf",
-      // "DOI": "https://doi.org/10.1109/GEN4DS63889.2024.00008",
+      "DOI": "https://doi.org/10.1145/3706598.3713449",
       "arXiv": "https://arxiv.org/abs/2502.04801"
     } as MATERIALS
   },
   {
     "category": ["hai", 'selected'],
-    "thumb": "images/instruction.png",
+    "thumb": "images/instruction.jpg",
     "title": "Prompting Generative AI with Interaction-Augmented Instructions",
     "authorsA": "",
     "authorsB": ", Haotian Li, Yifang Wang, Xing Xie, Huamin Qu",
@@ -30,26 +30,43 @@ export const paperList: PAPER[] = [
     "full": "Extended Abstracts of the ACM CHI conference on Human Factors in Computing Systems, 2025",
     "honor": "",
     "materials": {
-      // "Paper": "./pdf/DV_Survey.pdf",
-      // "DOI": "https://doi.org/10.1109/GEN4DS63889.2024.00008",
-      // "arXiv": "https://arxiv.org/abs/2502.04801"
+      "Paper": "./pdf/Instructions.pdf",
+      "DOI": "https://dl.acm.org/doi/10.1145/3706599.3720080",
+      "arXiv": "https://arxiv.org/abs/2503.02874"
     } as MATERIALS
   },
   {
     "category": ["story"],
     "thumb": "images/DVEva.png",
     "title": "House Advantage or House of Cards? Stacking the Deck for Data Videos Leads to Null Results",
-    "authorsA": "Jen Rogers, Remco Chang, ",
-    "authorsB": ", Evan Peck, Anzu Hakone, Mingwei Li, Kristi Potter, Ab Mosca",
+    "authorsA": "Jen Rogers, ",
+    "authorsB": ", Ab Mosca, Evan Peck, Mingwei Li, Anzu Hakone,  Kristi Potter, Remco Chang",
     "type": "Journal",
     "year": 2025,
     "abbr": "CHI EA'25",
     "full": "Extended Abstracts of the ACM CHI conference on Human Factors in Computing Systems, 2025",
     "honor": "",
     "materials": {
-      // "Paper": "./pdf/DV_Survey.pdf",
-      // "DOI": "https://doi.org/10.1109/GEN4DS63889.2024.00008",
-      // "arXiv": "https://arxiv.org/abs/2502.04801"
+      "Paper": "./pdf/DVEva.pdf",
+      "DOI": "https://dl.acm.org/doi/10.1145/3706599.3720256"
+    } as MATERIALS
+  },
+  {
+    "category": ["story", "hai"],
+    "thumb": "images/SceneLoom.png",
+    "title": "SceneLoom: Communicating Data with Scene Context",
+    "authorsA": "Lin Gao, ",
+    "authorsB": ", Yuheng Zhao, Jiexiang Lan, Huamin Qu, Siming Chen",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "TVCG'25",
+    "full": "IEEE Transactions on Visualization and Computer Graphics (Proc. IEEE VIS'25), 2025",
+    "honor": "",
+    "materials": {
+      // "Paper": "./pdf/NarrativePlayer.pdf",
+      // "DOI": "https://doi.org/10.1109/TVCG.2025.3530512",
+      // "arXiv": "https://arxiv.org/abs/2410.03268",
+      // "Homepage": "https://datavideos.github.io/Narrative_Player/"
     } as MATERIALS
   },
   {
@@ -71,10 +88,99 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
+    "category": ["hai"],
+    "thumb": "images/NeuroSync.png",
+    "title": "NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification",
+    "authorsA": "Wenshuo Zhang, ",
+    "authorsB": ", Shuchang Xu, Jindu Wang, Jian Zhao, Huamin Qu, Lin-Ping Yuan",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "UIST'25",
+    "full": "The ACM Symposium on User Interface Software and Technology, 2025",
+    "honor": "",
+    "materials": {
+      // "Paper": "./pdf/NotePlayer.pdf",
+      // "DOI": "https://doi.org/10.1145/3654777.3676410",
+      // "arXiv": "https://arxiv.org/abs/2308.04040",
+      // "Homepage": "https://datavideos.github.io/NotePlayer/"
+    } as MATERIALS
+  },
+  {
+    "category": ["story", "hai"],
+    "thumb": "images/paperbridge.png",
+    "title": "PaperBridge: Crafting Research Narratives through Human-AI Co-Exploration",
+    "authorsA": "Runhua Zhang, Yang Ouyang, ",
+    "authorsB": ", Yuying Tang, Xiaojuan Ma, Huamin Qu, Xian Xu",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "UIST'25",
+    "full": "The ACM Symposium on User Interface Software and Technology, 2025",
+    "honor": "",
+    "materials": {
+      // "Paper": "./pdf/NotePlayer.pdf",
+      // "DOI": "https://doi.org/10.1145/3654777.3676410",
+      // "arXiv": "https://arxiv.org/abs/2308.04040",
+      // "Homepage": "https://datavideos.github.io/NotePlayer/"
+    } as MATERIALS
+  },
+  {
+    "category": ["vda","hai"],
+    "thumb": "images/ipen.png",
+    "title": "Automatic Modeling and Analysis of Students' Problem-Solving Handwriting Trajectories",
+    "authorsA": "Zhonghua Sheng*, Shuyu Shen*, ",
+    "authorsB": ", Qiqi Duan, Nan Tang, Pan Hui, Huamin Qu, Yuyu Luo",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "AIED'25",
+    "full": "International Conference on Artificial Intelligence in Education, 2025",
+    "honor": "",
+    "materials": {
+      // "Paper": "./pdf/NarrativePlayer.pdf",
+      // "DOI": "https://doi.org/10.1109/TVCG.2025.3530512",
+      // "arXiv": "https://arxiv.org/abs/2410.03268",
+      // "Homepage": "https://datavideos.github.io/Narrative_Player/"
+    } as MATERIALS
+  },
+  {
+    "category": ["vda"],
+    "thumb": "images/ChartMark.png",
+    "title": "ChartMark: A Structured Grammar for Chart Annotation",
+    "authorsA": "Yiyu Chen, Yifan Wu, Shuyu Shen, Yupeng Xie, ",
+    "authorsB": ", Hui Xiong, Yuyu Luo",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "IEEE VIS'25",
+    "full": "IEEE Visualization and Visual Analytics Conference (Short Paper), 2025",
+    "honor": "",
+    "materials": {
+      // "Paper": "./pdf/PyGWalker.pdf",
+      // "DOI": "https://doi.org/10.1109/VIS55277.2024.00009",
+      // "arXiv": "https://arxiv.org/abs/2406.11637",
+      "Github": "https://github.com/HKUSTDial/ChartMark",
+      "Homepage": "https://chartmark.github.io/"
+    } as MATERIALS
+  },
+  {
+    "category": ["vda"],
+    "thumb": "images/nvbench.png",
+    "title": "nvBench 2.0: A Benchmark for Natural Language to Visualization under Ambiguity",
+    "authorsA": "Tianqi Luo, Chuhan Huang, ",
+    "authorsB": ", Boyan Li, Shuyu Shen, Wei Zeng, Nan Tang, Yuyu Luo",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "arXiv'25",
+    "full": "Preprint, 2025",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/nvbench.pdf",
+      "arXiv": "https://arxiv.org/abs/2503.12880"
+    } as MATERIALS
+  },
+  {
     "category": ["story", "hai"],
     "thumb": "images/MetaRelation.png",
     "title": "Composing Data Stories with Meta Relations",
-    "authorsA": "Haotian Li, Yu Ying, ",
+    "authorsA": "Haotian Li, Lu Ying, ",
     "authorsB": ", Yun Wang, Yingcai Wu, Huamin Qu",
     "type": "Journal",
     "year": 2025,
@@ -127,7 +233,7 @@ export const paperList: PAPER[] = [
     "thumb": "images/CHI2024.png",
     "title": "WonderFlow: Narration-Centric Design of Animated Data Videos",
     "authorsA": "Yun Wang*, ",
-    "authorsB": "*, Zhengxin You, Xinhuan Shu, Bongshin Lee, John Thompson, Haidong Zhang, Dongmei Zhang (* equal contribution)",
+    "authorsB": "*, Zhengxin You, Xinhuan Shu, Bongshin Lee, John Thompson, Haidong Zhang, Dongmei Zhang",
     "type": "Journal",
     "year": 2024,
     "abbr": "TVCG'24",
@@ -198,7 +304,7 @@ export const paperList: PAPER[] = [
     "category": ["vda"],
     "thumb": "images/ChartInsights.png",
     "title": "ChartInsights: Evaluating Multimodal Large Language Models for Low-Level Chart Question Answering",
-    "authorsA": "Yifan Wu, Lutao Yan, ",
+    "authorsA": "Yifan Wu*, Lutao Yan*, ",
     "authorsB": ", Yunhai Wang, Nan Tang, Yuyu Luo",
     "type": "Journal",
     "year": 2024,
@@ -235,7 +341,7 @@ export const paperList: PAPER[] = [
     "thumb": "images/TVCG_graph2022.png",
     "title": "Graph Exploration with Embedding-Guided Layouts",
     "authorsA": "",
-    "authorsB": "*, Zhiwei Tai*, Enya Shen, Jianmin Wang (* equal contribution)",
+    "authorsB": "*, Zhiwei Tai*, Enya Shen, Jianmin Wang",
     "type": "Journal",
     "year": 2023,
     "abbr": "TVCG'23",

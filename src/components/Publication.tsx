@@ -102,7 +102,22 @@ function Publication() {
               {item.label}
             </button>)
         })}
+
       </div>
+      {/* <span>(* denotes equal contribution, # denotes corresponding author)</span> */}
+      <span
+        style={{
+          fontSize: "0.8em",
+          display: "inline-block",
+          marginTop: "0.5em",
+          color: "#666",
+        }}
+      >
+        (* denotes equal contribution)
+        {/* (* denotes equal contribution, # denotes corresponding author) */}
+      </span>
+
+
 
       {/* <div className="paper-list">
         {getPaperList(current).map((paper: PAPER) => 

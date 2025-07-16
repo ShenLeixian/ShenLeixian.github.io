@@ -74,6 +74,19 @@ function Resume () {
 
       <h3>Visiting Experience</h3>
       <div>
+
+      <div className="entry">
+          <span className="time">2025.05 - 2025.08</span>
+          <span className="item">
+            <span className='cv-hl'>Microsoft Research Asia (MSRA), Beijing</span>
+            <br />
+            <span>Research Intern in EPIC (Extended Perception, Interaction & Cognition) Group and Visual Computing Group </span>
+            <br />
+            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/nath/?msockid=3a3da8b9312861113d9dbb76304e6085" target="_blank">Dr. Nathalie Henry Riche</a> (in Seattle, online) and <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/yuyua/" target="_blank">Dr. Yuhui Yuan</a></span> 
+            <br />
+          </span>
+        </div>
+
       <div className="entry">
           <span className="time">2022.04 - 2023.06</span>
           <span className="item">
@@ -85,9 +98,9 @@ function Resume () {
             <br />
             <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/wangyun/" target="_blank">Dr. Yun Wang</a></span> 
             <br />
-
           </span>
         </div>
+
         <div className="entry">
           <span className="time">2019.10 - 2020.05</span>
           <span className="item">
@@ -309,6 +322,18 @@ function Resume () {
         </div>
 
     <h3>PUBLICATIONS</h3>
+    <span
+        style={{
+          fontSize: "0.8em",
+          display: "inline-block",
+          // marginTop: "0em",
+          marginBottom: "1em",
+          color: "#666",
+        }}
+      >
+        (* denotes equal contribution)
+        {/* (* denotes equal contribution, # denotes corresponding author) */}
+      </span>
     {/* <span>* denotes equal contribution</span> */}
     {/* <h4>Peer-reviewed Conference and Journal Publications</h4> */}
     <div>
@@ -383,6 +408,20 @@ function Resume () {
     <h3 id="talks">TALKS</h3>
     <div>
       <div className="entry">
+        <span className="time">2025</span>
+        <span className="item">
+          <span className='cv-hl'>Narration-Centric Design of Animated Data Videos with Human-AI Collaboration</span><br />
+            <em>CSIG Sharing Forum (2025.5), Online</em>
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time"></span>
+        <span className="item">
+          <span className='cv-hl'>Reflecting on Design Paradigms of Animated Data Video Tools</span><br />
+            <em>ACM CHI Conference (2025.5), Yokohama, Japan</em>
+        </span>
+      </div>
+      <div className="entry">
         <span className="time">2024</span>
         <span className="item">
           <span className='cv-hl'>Facilitating Animated Data Video Creation for Data Storytelling with Human-AI Collaboration</span><br />
@@ -413,8 +452,8 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className='cv-hl'> GPT-4 Prompt Engineering for Visual Data Analysis and Storytelling</span><br />
-          <em>MSRA seminar (2023.06), Beijing and HKUST seminar (2023.09), Hong Kong </em>
+          <span className='cv-hl'> Prompt Engineering for Visual Data Analysis and Storytelling</span><br />
+          <em>MSRA seminar (2023.06), Beijing; HKUST seminar (2023.09), Hong Kong </em>
         </span>
       </div>
       <div className="entry">
@@ -439,7 +478,7 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className='cv-hl'>ACM CHI LBW </span> 2024, <span className='cv-hl'>ACM C&C </span> 2025
+        <span className='cv-hl'>ACM C&C </span> 2025, <span className='cv-hl'>ACM CHI LBW </span> 2024
         </span>
       </div>
     </div>
@@ -449,7 +488,7 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className='cv-hl'>IEEE VIS</span> 2022-24, <span className='cv-hl'>CHI</span> 2024-25, <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>EuroVis</span> 2023-25, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>PacificVis</span> 2023, <span className='cv-hl'>PacificVis (TVCG track)</span> 2025, <span className='cv-hl'>IDC</span> 2024, <span className='cv-hl'>ChinaVis</span> 2022-24, <span className='cv-hl'>C&C</span> 2024
+          <span className='cv-hl'>IEEE VIS</span> 2022-25, <span className='cv-hl'>CHI</span> 2024-25, <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>EuroVis</span> 2023-25, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>PacificVis</span> 2023, <span className='cv-hl'>PacificVis (TVCG track)</span> 2025, <span className='cv-hl'>IDC</span> 2024, <span className='cv-hl'>ChinaVis</span> 2022-25, <span className='cv-hl'>C&C</span> 2024, <span className='cv-hl'>ACM MM</span> 2025, <span className='cv-hl'>AIED</span> 2025
           <br/>
           * Two Special Recognitions for Outstanding Reviews for CHI 2024
         </span>
@@ -461,7 +500,7 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className='cv-hl'>TVCG</span>, <span className='cv-hl'>IJHCI</span> 
+          <span className='cv-hl'>TVCG</span>, <span className='cv-hl'>IJHCI</span>, <span className='cv-hl'>Visual Informatics</span>
         </span>
       </div>
     </div>
