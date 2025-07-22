@@ -63,7 +63,7 @@ export const paperList: PAPER[] = [
     "full": "IEEE Transactions on Visualization and Computer Graphics (Proc. IEEE VIS'25), 2025",
     "honor": "",
     "materials": {
-      // "Paper": "./pdf/NarrativePlayer.pdf",
+      "Paper": "./pdf/SceneLoom.pdf",
       // "DOI": "https://doi.org/10.1109/TVCG.2025.3530512",
       // "arXiv": "https://arxiv.org/abs/2410.03268",
       // "Homepage": "https://datavideos.github.io/Narrative_Player/"
@@ -99,7 +99,7 @@ export const paperList: PAPER[] = [
     "full": "The ACM Symposium on User Interface Software and Technology, 2025",
     "honor": "",
     "materials": {
-      // "Paper": "./pdf/NotePlayer.pdf",
+      "Paper": "./pdf/NeuroSync.pdf",
       // "DOI": "https://doi.org/10.1145/3654777.3676410",
       // "arXiv": "https://arxiv.org/abs/2308.04040",
       // "Homepage": "https://datavideos.github.io/NotePlayer/"
@@ -117,9 +117,9 @@ export const paperList: PAPER[] = [
     "full": "The ACM Symposium on User Interface Software and Technology, 2025",
     "honor": "",
     "materials": {
-      // "Paper": "./pdf/NotePlayer.pdf",
+      "Paper": "./pdf/paperbridge.pdf",
       // "DOI": "https://doi.org/10.1145/3654777.3676410",
-      // "arXiv": "https://arxiv.org/abs/2308.04040",
+      "arXiv": "https://arxiv.org/abs/2507.14527",
       // "Homepage": "https://datavideos.github.io/NotePlayer/"
     } as MATERIALS
   },
@@ -135,7 +135,7 @@ export const paperList: PAPER[] = [
     "full": "International Conference on Artificial Intelligence in Education, 2025",
     "honor": "",
     "materials": {
-      // "Paper": "./pdf/NarrativePlayer.pdf",
+      "Paper": "./pdf/ipen.pdf",
       // "DOI": "https://doi.org/10.1109/TVCG.2025.3530512",
       // "arXiv": "https://arxiv.org/abs/2410.03268",
       // "Homepage": "https://datavideos.github.io/Narrative_Player/"
@@ -153,11 +153,27 @@ export const paperList: PAPER[] = [
     "full": "IEEE Visualization and Visual Analytics Conference (Short Paper), 2025",
     "honor": "",
     "materials": {
-      // "Paper": "./pdf/PyGWalker.pdf",
+      "Paper": "./pdf/ChartMark.pdf",
       // "DOI": "https://doi.org/10.1109/VIS55277.2024.00009",
       // "arXiv": "https://arxiv.org/abs/2406.11637",
       "Github": "https://github.com/HKUSTDial/ChartMark",
       "Homepage": "https://chartmark.github.io/"
+    } as MATERIALS
+  },
+  {
+    "category": ["story"],
+    "thumb": "images/ETGap.png",
+    "title": "How Does Empirical Research Facilitate Creation Tool Design? A Data Video Perspective",
+    "authorsA": "",
+    "authorsB": ", Leni Yang, Haotian Li, Yun Wang, Yuyu Luo, Huamin Qu",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "arXiv'25",
+    "full": "Preprint, 2025",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/ETGap.pdf",
+      "arXiv": "https://arxiv.org/abs/2507.15244"
     } as MATERIALS
   },
   {

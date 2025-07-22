@@ -80,9 +80,9 @@ function Resume () {
           <span className="item">
             <span className='cv-hl'>Microsoft Research Asia (MSRA), Beijing</span>
             <br />
-            <span>Research Intern in EPIC (Extended Perception, Interaction & Cognition) Group and Visual Computing Group </span>
+            <span>Research Intern in EPIC Group, Societal AI Group, and Visual Computing Group </span>
             <br />
-            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/nath/?msockid=3a3da8b9312861113d9dbb76304e6085" target="_blank">Dr. Nathalie Henry Riche</a> (in Seattle, online) and <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/yuyua/" target="_blank">Dr. Yuhui Yuan</a></span> 
+            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/nath/?msockid=3a3da8b9312861113d9dbb76304e6085" target="_blank">Dr. Nathalie Henry Riche</a> (in Seattle, online), <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/xingx/" target="_blank">Dr. Xing Xie</a>, and <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/yuyua/" target="_blank">Dr. Yuhui Yuan</a></span> 
             <br />
           </span>
         </div>
