@@ -76,7 +76,7 @@ function Resume () {
       <div>
 
       <div className="entry">
-          <span className="time">2025.05 - 2025.08</span>
+          <span className="time">2025.05 - 2025.09</span>
           <span className="item">
             <span className='cv-hl'>Microsoft Research Asia (MSRA), Beijing</span>
             <br />
@@ -112,11 +112,22 @@ function Resume () {
           </span>
         </div>
       </div>
-      
 
       <h3 id="awards">AWARDS</h3>
       <h4>Honors and Scholarships</h4>
       <div>
+      <div className="entry">
+          <span className="time">2025</span>
+          <span className="item">
+          <a className="text-hl" href="https://uist.acm.org/2025/" target="_blank">UIST 2025 Best Paper Honorable Mention</a> (Top 5%)
+          </span>
+        </div>
+      <div className="entry">
+          <span className="time">2025</span>
+          <span className="item">
+          HKUST RedBird Academic Excellence Award (HKD 20K)
+          </span>
+        </div>
       <div className="entry">
           <span className="time">2024</span>
           <span className="item">
@@ -132,7 +143,7 @@ function Resume () {
         <div className="entry">
           <span className="time">2023</span>
           <span className="item">
-            RedBird PhD Award of HKUST (HKD 40k+42k)
+          HKUST RedBird PhD Award (HKD 40k+42k)
           </span>
         </div>
         <div className="entry">
@@ -478,7 +489,7 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-        <span className='cv-hl'>ACM C&C </span> 2025, <span className='cv-hl'>ACM CHI LBW </span> 2024
+        <span className='cv-hl'>ACM C&C </span> 2025, <span className='cv-hl'>AIED</span> 2025, <span className='cv-hl'>ACM CHI LBW </span> 2024
         </span>
       </div>
     </div>
@@ -488,7 +499,7 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className='cv-hl'>IEEE VIS</span> 2022-25, <span className='cv-hl'>CHI</span> 2024-25, <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>EuroVis</span> 2023-25, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>PacificVis</span> 2023, <span className='cv-hl'>PacificVis (TVCG track)</span> 2025, <span className='cv-hl'>IDC</span> 2024, <span className='cv-hl'>ChinaVis</span> 2022-25, <span className='cv-hl'>C&C</span> 2024, <span className='cv-hl'>ACM MM</span> 2025, <span className='cv-hl'>AIED</span> 2025
+          <span className='cv-hl'>IEEE VIS</span> 2022-25, <span className='cv-hl'>CHI</span> 2024-25, <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>EuroVis</span> 2023-25, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>PacificVis</span> 2023, <span className='cv-hl'>PacificVis (TVCG track)</span> 2025, <span className='cv-hl'>IDC</span> 2024, <span className='cv-hl'>ChinaVis</span> 2022-25, <span className='cv-hl'>C&C</span> 2024, <span className='cv-hl'>ACM MM</span> 2025
           <br/>
           * Two Special Recognitions for Outstanding Reviews for CHI 2024
         </span>

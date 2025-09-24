@@ -110,10 +110,15 @@
   font-weight: 300;
 }
 
-.materials {
+.materials-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 14px;
-  display: 'flex';
-  justify-content: center;
+}
+
+.materials {
+  display: flex;
 }
 
 .material::before {
@@ -131,4 +136,19 @@
 
 h2 {
   margin-bottom: 0;
+}
+
+.category-tags {
+  display: flex;
+  gap: 8px;
+}
+
+.category-tag {
+  background-color: #f8f8f8;
+  color: #999;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid #e0e0e0;
 }

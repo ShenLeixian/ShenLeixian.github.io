@@ -2,7 +2,7 @@ import { MATERIALS, PAPER, PATENT } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
-    "category": ["story","hai", 'selected'],
+    "category": ["story", "hai", 'selected'],
     "thumb": "images/datavideosurvey.png",
     "title": "Reflecting on Design Paradigms of Animated Data Video Tools",
     "authorsA": "",
@@ -52,6 +52,42 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
+    "category": ["hai", 'selected'],
+    "thumb": "images/NeuroSync.png",
+    "title": "NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification",
+    "authorsA": "Wenshuo Zhang, ",
+    "authorsB": ", Shuchang Xu, Jindu Wang, Jian Zhao, Huamin Qu, Lin-Ping Yuan",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "UIST'25",
+    "full": "The ACM Symposium on User Interface Software and Technology, 2025",
+    "honor": "Best Paper Honorable Mention (Top 5%)",
+    "materials": {
+      "Paper": "./pdf/NeuroSync.pdf",
+      // "DOI": "https://doi.org/10.1145/3654777.3676410",
+      "arXiv": "https://arxiv.org/abs/2508.02823",
+      "Homepage": "https://zhang373.github.io/NeuroSync_Web/"
+    } as MATERIALS
+  },
+  {
+    "category": ["story", "hai"],
+    "thumb": "images/paperbridge.png",
+    "title": "PaperBridge: Crafting Research Narratives through Human-AI Co-Exploration",
+    "authorsA": "Runhua Zhang, Yang Ouyang, ",
+    "authorsB": ", Yuying Tang, Xiaojuan Ma, Huamin Qu, Xian Xu",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "UIST'25",
+    "full": "The ACM Symposium on User Interface Software and Technology, 2025",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/paperbridge.pdf",
+      // "DOI": "https://doi.org/10.1145/3654777.3676410",
+      "arXiv": "https://arxiv.org/abs/2507.14527",
+      "Homepage": "https://www.youtube.com/watch?v=dN8BIjsodwE"
+    } as MATERIALS
+  },
+  {
     "category": ["story", "hai"],
     "thumb": "images/SceneLoom.png",
     "title": "SceneLoom: Communicating Data with Scene Context",
@@ -65,8 +101,8 @@ export const paperList: PAPER[] = [
     "materials": {
       "Paper": "./pdf/SceneLoom.pdf",
       // "DOI": "https://doi.org/10.1109/TVCG.2025.3530512",
-      // "arXiv": "https://arxiv.org/abs/2410.03268",
-      // "Homepage": "https://datavideos.github.io/Narrative_Player/"
+      "arXiv": "https://arxiv.org/abs/2507.16466",
+      "Homepage": "https://lynnegao.me/scene-loom/"
     } as MATERIALS
   },
   {
@@ -88,39 +124,20 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["hai"],
-    "thumb": "images/NeuroSync.png",
-    "title": "NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification",
-    "authorsA": "Wenshuo Zhang, ",
-    "authorsB": ", Shuchang Xu, Jindu Wang, Jian Zhao, Huamin Qu, Lin-Ping Yuan",
+    "category": ["vda"],
+    "thumb": "images/nvbench.png",
+    "title": "nvBench 2.0: Resolving Ambiguity in Text-to-Visualization through Stepwise Reasoning",
+    "authorsA": "Tianqi Luo, Chuhan Huang, ",
+    "authorsB": ", Boyan Li, Shuyu Shen, Wei Zeng, Nan Tang, Yuyu Luo",
     "type": "Journal",
     "year": 2025,
-    "abbr": "UIST'25",
-    "full": "The ACM Symposium on User Interface Software and Technology, 2025",
+    "abbr": "NeurIPS'25",
+    "full": "The 39th Annual Conference on Neural Information Processing Systems, 2025",
     "honor": "",
     "materials": {
-      "Paper": "./pdf/NeuroSync.pdf",
-      // "DOI": "https://doi.org/10.1145/3654777.3676410",
-      // "arXiv": "https://arxiv.org/abs/2308.04040",
-      // "Homepage": "https://datavideos.github.io/NotePlayer/"
-    } as MATERIALS
-  },
-  {
-    "category": ["story", "hai"],
-    "thumb": "images/paperbridge.png",
-    "title": "PaperBridge: Crafting Research Narratives through Human-AI Co-Exploration",
-    "authorsA": "Runhua Zhang, Yang Ouyang, ",
-    "authorsB": ", Yuying Tang, Xiaojuan Ma, Huamin Qu, Xian Xu",
-    "type": "Journal",
-    "year": 2025,
-    "abbr": "UIST'25",
-    "full": "The ACM Symposium on User Interface Software and Technology, 2025",
-    "honor": "",
-    "materials": {
-      "Paper": "./pdf/paperbridge.pdf",
-      // "DOI": "https://doi.org/10.1145/3654777.3676410",
-      "arXiv": "https://arxiv.org/abs/2507.14527",
-      // "Homepage": "https://datavideos.github.io/NotePlayer/"
+      "Paper": "./pdf/nvbench.pdf",
+      "Homepage": "https://nvbench2.github.io/",
+      "arXiv": "https://arxiv.org/abs/2503.12880"
     } as MATERIALS
   },
   {
@@ -135,8 +152,8 @@ export const paperList: PAPER[] = [
     "full": "International Conference on Artificial Intelligence in Education, 2025",
     "honor": "",
     "materials": {
-      "Paper": "./pdf/ipen.pdf",
-      // "DOI": "https://doi.org/10.1109/TVCG.2025.3530512",
+      "Paper": "./pdf/iPen.pdf",
+      "DOI": "https://doi.org/10.1007/978-3-031-98414-3_16",
       // "arXiv": "https://arxiv.org/abs/2410.03268",
       // "Homepage": "https://datavideos.github.io/Narrative_Player/"
     } as MATERIALS
@@ -155,13 +172,13 @@ export const paperList: PAPER[] = [
     "materials": {
       "Paper": "./pdf/ChartMark.pdf",
       // "DOI": "https://doi.org/10.1109/VIS55277.2024.00009",
-      // "arXiv": "https://arxiv.org/abs/2406.11637",
+      "arXiv": "https://arxiv.org/abs/2507.21810",
       "Github": "https://github.com/HKUSTDial/ChartMark",
       "Homepage": "https://chartmark.github.io/"
     } as MATERIALS
   },
   {
-    "category": ["story"],
+    "category": ["story","selected"],
     "thumb": "images/ETGap.png",
     "title": "How Does Empirical Research Facilitate Creation Tool Design? A Data Video Perspective",
     "authorsA": "",
@@ -177,22 +194,6 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["vda"],
-    "thumb": "images/nvbench.png",
-    "title": "nvBench 2.0: A Benchmark for Natural Language to Visualization under Ambiguity",
-    "authorsA": "Tianqi Luo, Chuhan Huang, ",
-    "authorsB": ", Boyan Li, Shuyu Shen, Wei Zeng, Nan Tang, Yuyu Luo",
-    "type": "Journal",
-    "year": 2025,
-    "abbr": "arXiv'25",
-    "full": "Preprint, 2025",
-    "honor": "",
-    "materials": {
-      "Paper": "./pdf/nvbench.pdf",
-      "arXiv": "https://arxiv.org/abs/2503.12880"
-    } as MATERIALS
-  },
-  {
     "category": ["story", "hai"],
     "thumb": "images/MetaRelation.png",
     "title": "Composing Data Stories with Meta Relations",
@@ -205,6 +206,7 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pdf/MetaRelation.pdf",
+      "Homepage": "https://nvbench2.github.io/",
       "arXiv": "https://arxiv.org/abs/2501.03603"
     } as MATERIALS
   },
@@ -280,6 +282,25 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
+    "category": ["vda","selected"],
+    "thumb": "images/PyGWalker.png",
+    "title": "PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis",
+    "authorsA": "Yue Yu, ",
+    "authorsB": ", Fei Long, Huamin Qu, Hao Chen",
+    "type": "Journal",
+    "year": 2024,
+    "abbr": "IEEE VIS'24",
+    "full": "IEEE Visualization and Visual Analytics Conference (Short Paper), 2024",
+    "honor": "Best Paper Award (Top 1%), Github Star 15k+",
+    "materials": {
+      "Paper": "./pdf/PyGWalker.pdf",
+      "DOI": "https://doi.org/10.1109/VIS55277.2024.00009",
+      "arXiv": "https://arxiv.org/abs/2406.11637",
+      "Github": "https://github.com/Kanaries/pygwalker",
+      "Homepage": "https://kanaries.net/pygwalker"
+    } as MATERIALS
+  },
+  {
     "category": ["story", "hai"],
     "thumb": "images/NotePlayer.png",
     "title": "NotePlayer: Engaging Jupyter Notebooks for Dynamic Presentation of Analytical Processes",
@@ -295,25 +316,6 @@ export const paperList: PAPER[] = [
       "DOI": "https://doi.org/10.1145/3654777.3676410",
       "arXiv": "https://arxiv.org/abs/2308.04040",
       "Homepage": "https://datavideos.github.io/NotePlayer/"
-    } as MATERIALS
-  },
-  {
-    "category": ["vda"],
-    "thumb": "images/PyGWalker.png",
-    "title": "PyGWalker: On-the-fly Assistant for Exploratory Visual Data Analysis",
-    "authorsA": "Yue Yu, ",
-    "authorsB": ", Fei Long, Huamin Qu, Hao Chen",
-    "type": "Journal",
-    "year": 2024,
-    "abbr": "IEEE VIS'24",
-    "full": "IEEE Visualization and Visual Analytics Conference (Short Paper), 2024",
-    "honor": "Best Paper Award (Top 1%)",
-    "materials": {
-      "Paper": "./pdf/PyGWalker.pdf",
-      "DOI": "https://doi.org/10.1109/VIS55277.2024.00009",
-      "arXiv": "https://arxiv.org/abs/2406.11637",
-      "Github": "https://github.com/Kanaries/pygwalker",
-      "Homepage": "https://kanaries.net/pygwalker"
     } as MATERIALS
   },
   {
@@ -415,7 +417,7 @@ export const paperList: PAPER[] = [
     "year": 2022,
     "abbr": "TVCG'22",
     "full": "IEEE Transactions on Visualization and Computer Graphics, 2022",
-    "honor": "",
+    "honor": "PaperDigest Most Influential Papers in HCI, Rank 4th in TVCG 2022",
     "materials": {
       "Paper": "https://arxiv.org/pdf/2109.03506.pdf",
       "DOI": "https://doi.org/10.1109/TVCG.2022.3148007",
@@ -447,8 +449,8 @@ export const paperList: PAPER[] = [
     "type": "Journal",
     "year": 2022,
     "abbr": "DSE'22",
-    "full": "Data Science and Engineering (Highlighted Paper), 2022",
-    "honor": "",
+    "full": "Data Science and Engineering, 2022",
+    "honor": "Highlighted Paper",
     "materials": {
       "Paper": "https://rdcu.be/cVxfr",
       "DOI": "https://doi.org/10.1007/s41019-022-00195-3",

@@ -48,12 +48,24 @@ function News () {
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
       <div className="news">
-          <span className="time">2025.07</span>
-          <span className="item">🎉 Our paper "SceneLoom: Communicating Data with Scene Context" and short paper "ChartMark: A Structured Grammar for Chart Annotation" were accepted to IEEE VIS 2025. See you in Vienna 🇦🇹! </span>
+          <span className="time">2025.09</span>
+          <span className="item">🎉 Our paper <a className="text-hl" href="https://nvbench2.github.io/" target="_blank">nvBench 2.0: Resolving Ambiguity in Text-to-Visualization through Stepwise Reasoning</a> was accepted to NeurIPS 2025! </span>
+      </div>
+      <div className="news">
+          <span className="time">2025.09</span>
+          <span className="item">🎉 Our paper <a className="text-hl" href="https://zhang373.github.io/NeuroSync_Web/" target="_blank">NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification</a> in UIST 2025 won the 🏆 Best Paper Honorable Mention Award (Top 5%)!  </span>
       </div>
       <div className="news">
           <span className="time">2025.07</span>
-          <span className="item">🎉 Two papers about Human-AI Collaboration for code-based problem solving and research narratives crafting were conditionally accepted to UIST 2025. See you in Busan 🇰🇷! </span>
+          <span className="item">🎉 Receive HKUST RedBird Academic Excellence Award in 2024-25! </span>
+      </div>
+      <div className="news">
+          <span className="time">2025.07</span>
+          <span className="item">🎉 Our paper "<a className="text-hl" href="https://lynnegao.me/scene-loom/" target="_blank">SceneLoom: Communicating Data with Scene Context</a>" and short paper "<a className="text-hl" href="https://chartmark.github.io/" target="_blank">ChartMark: A Structured Grammar for Chart Annotation</a>" were accepted to IEEE VIS 2025. See you in Vienna 🇦🇹! </span>
+      </div>
+      <div className="news">
+          <span className="time">2025.07</span>
+          <span className="item">🎉 Two papers about Human-AI Collaboration for <a className="text-hl" href="https://zhang373.github.io/NeuroSync_Web/" target="_blank">code-based problem solving</a> and <a className="text-hl" href="https://www.youtube.com/watch?v=dN8BIjsodwE" target="_blank">research narratives crafting</a> were accepted to UIST 2025. See you in Busan 🇰🇷! </span>
       </div>
       <div className="news">
           <span className="time">2025.05</span>
