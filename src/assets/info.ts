@@ -61,10 +61,10 @@ export const paperList: PAPER[] = [
     "year": 2025,
     "abbr": "UIST'25",
     "full": "The ACM Symposium on User Interface Software and Technology, 2025",
-    "honor": "Best Paper Honorable Mention (Top 5%)",
+    "honor": "Best Paper Honorable Mention (Top 2%)",
     "materials": {
       "Paper": "./pdf/NeuroSync.pdf",
-      // "DOI": "https://doi.org/10.1145/3654777.3676410",
+      "DOI": "https://dl.acm.org/doi/10.1145/3746059.3747668",
       "arXiv": "https://arxiv.org/abs/2508.02823",
       "Homepage": "https://zhang373.github.io/NeuroSync_Web/"
     } as MATERIALS
@@ -82,7 +82,7 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pdf/paperbridge.pdf",
-      // "DOI": "https://doi.org/10.1145/3654777.3676410",
+      "DOI": "https://dl.acm.org/doi/10.1145/3746059.3747713",
       "arXiv": "https://arxiv.org/abs/2507.14527",
       "Homepage": "https://www.youtube.com/watch?v=dN8BIjsodwE"
     } as MATERIALS
@@ -145,7 +145,7 @@ export const paperList: PAPER[] = [
     "thumb": "images/ipen.png",
     "title": "Automatic Modeling and Analysis of Students' Problem-Solving Handwriting Trajectories",
     "authorsA": "Zhonghua Sheng*, Shuyu Shen*, ",
-    "authorsB": ", Qiqi Duan, Nan Tang, Pan Hui, Huamin Qu, Yuyu Luo",
+    "authorsB": "#, Qiqi Duan, Nan Tang, Pan Hui, Huamin Qu, Yuyu Luo",
     "type": "Journal",
     "year": 2025,
     "abbr": "AIED'25",
@@ -445,7 +445,7 @@ export const paperList: PAPER[] = [
     "thumb": "images/DSE2022.png",
     "title": "Visual Data Analysis with Task-Based Recommendations",
     "authorsA": "",
-    "authorsB": ", Enya Shen, Zhiwei Tai, Yihao Xu, Jiaxiang Dong, Jianmin Wang",
+    "authorsB": "#, Enya Shen, Zhiwei Tai, Yihao Xu, Jiaxiang Dong, Jianmin Wang",
     "type": "Journal",
     "year": 2022,
     "abbr": "DSE'22",

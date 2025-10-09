@@ -113,8 +113,8 @@ function Publication() {
           color: "#666",
         }}
       >
-        (* denotes equal contribution)
-        {/* (* denotes equal contribution, # denotes corresponding author) */}
+        {/* (* denotes equal contribution) */}
+        (* denotes equal contribution, # denotes corresponding author)
       </span>
 
 

@@ -119,7 +119,7 @@ function Resume () {
       <div className="entry">
           <span className="time">2025</span>
           <span className="item">
-          <a className="text-hl" href="https://uist.acm.org/2025/" target="_blank">UIST 2025 Best Paper Honorable Mention</a> (Top 5%)
+          <a className="text-hl" href="https://uist.acm.org/2025/" target="_blank">UIST 2025 Best Paper Honorable Mention</a> (Top 2%)
           </span>
         </div>
       <div className="entry">
@@ -131,7 +131,7 @@ function Resume () {
       <div className="entry">
           <span className="time">2024</span>
           <span className="item">
-            <a className="text-hl" href="https://www.csig.org.cn/59/202411/52240.html" target="_blank">CSIG Incentive Program for Master Thesis</a> (CSIG硕士学位论文激励计划, 10 in China)
+            <a className="text-hl" href="https://www.csig.org.cn/59/202411/52240.html" target="_blank">CSIG Incentive Program for Master Thesis</a> (中国图象图形学学会硕士学位论文激励计划, 10 in China)
           </span>
         </div>
       <div className="entry">
@@ -308,27 +308,43 @@ function Resume () {
 
         <h4>Fundings</h4>
         <div className="entry">
+          <span className="time">2025.04 - 2026.05</span>
+          <span className="item">
+            <span>Accelerating Foundation Models Research Program, Core Contributor</span>
+            <br />
+            <span>"Understanding, Measuring, and Enhancing Human Agency in Human-AI Collaboration" ($ 45K USD)</span>
+          </span>
+        </div>
+        <div className="entry">
+          <span className="time">2023.06 - 2025.06</span>
+          <span className="item">
+            <span>HONG KONG Innovation and Technology Fund (ITF) Project, Core Contributor</span>
+            <br />
+            <span>"AI-Powered, Personalized Analysis and Feedback Platform for K-12 Education in Computational Thinking Skills ($ 450K HKD)</span>
+          </span>
+        </div>
+        <div className="entry">
           <span className="time">2018.12 - 2019.12</span>
           <span className="item">
-            <span>CERNET Next Generation Internet Technology Innovation Program</span>
+            <span>CERNET Next Generation Internet Technology Innovation Program, Principal Investigator</span>
             <br />
-            <span>“Smart Library System Based on RFID and IPv6 Network", Principal Investigator (¥ 100,000)</span>
+            <span>"Smart Library System Based on RFID and IPv6 Network" (¥ 100K CNY)</span>
           </span>
         </div>
         <div className="entry">
           <span className="time">2018.08 - 2019.08</span>
           <span className="item">
-            <span>NJUPT-YTO Joint Laboratory Innovation Program</span>
+            <span>NJUPT-YTO Joint Laboratory Innovation Program, Principal Investigator</span>
             <br />
-            <span>"Modern Logistics Management System Based on RFID and NB-IoT", Principal Investigator (¥ 20,000)</span>
+            <span>"Modern Logistics Management System Based on RFID and NB-IoT" (¥ 20K CNY)</span>
           </span>
         </div>
         <div className="entry">
           <span className="time">2018.05 - 2019.05</span>
           <span className="item">
-            <span>National College Students Innovation and Entrepreneurship Training Program</span>
+            <span>National College Students Innovation and Entrepreneurship Training Program, Principal Investigator</span>
             <br />
-            <span>"High-Precision Indoor Wireless Localization Based on UHF RFID", Principal Investigator (¥ 20,000)</span>
+            <span>"High-Precision Indoor Wireless Localization Based on UHF RFID" (¥ 20K CNY)</span>
           </span>
         </div>
 
@@ -342,8 +358,8 @@ function Resume () {
           color: "#666",
         }}
       >
-        (* denotes equal contribution)
-        {/* (* denotes equal contribution, # denotes corresponding author) */}
+        {/* (* denotes equal contribution) */}
+        (* denotes equal contribution, # denotes corresponding author)
       </span>
     {/* <span>* denotes equal contribution</span> */}
     {/* <h4>Peer-reviewed Conference and Journal Publications</h4> */}
@@ -420,6 +436,13 @@ function Resume () {
     <div>
       <div className="entry">
         <span className="time">2025</span>
+        <span className="item">
+          <span className='cv-hl'>Narration-Centric Design of Animated Data Videos with Human-AI Collaboration</span><br />
+            <em>Seoul National University (2025.9), Seoul, Korea</em>
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time"></span>
         <span className="item">
           <span className='cv-hl'>Narration-Centric Design of Animated Data Videos with Human-AI Collaboration</span><br />
             <em>CSIG Sharing Forum (2025.5), Online</em>
@@ -499,7 +522,7 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className='cv-hl'>IEEE VIS</span> 2022-25, <span className='cv-hl'>CHI</span> 2024-25, <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>EuroVis</span> 2023-25, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>PacificVis</span> 2023, <span className='cv-hl'>PacificVis (TVCG track)</span> 2025, <span className='cv-hl'>IDC</span> 2024, <span className='cv-hl'>ChinaVis</span> 2022-25, <span className='cv-hl'>C&C</span> 2024, <span className='cv-hl'>ACM MM</span> 2025
+          <span className='cv-hl'>IEEE VIS</span> 2022-25, <span className='cv-hl'>CHI</span> 2024-26, <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>EuroVis</span> 2023-25, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>PacificVis</span> 2023, <span className='cv-hl'>PacificVis (TVCG track)</span> 2025-26, <span className='cv-hl'>IDC</span> 2024, <span className='cv-hl'>ChinaVis</span> 2022-25, <span className='cv-hl'>C&C</span> 2024, <span className='cv-hl'>ACM MM</span> 2025, <span className='cv-hl'>AAAI</span> 2025, <span className='cv-hl'>VRST</span> 2025
           <br/>
           * Two Special Recognitions for Outstanding Reviews for CHI 2024
         </span>
@@ -536,6 +559,12 @@ function Resume () {
       </div>
       <div className="entry">
         <span className="time">2024</span>
+        <span className="item">
+          <span className='cv-hl'>TA for COMP3631 Cryptography, HKUST</span>
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time">2025</span>
         <span className="item">
           <span className='cv-hl'>TA for COMP3631 Cryptography, HKUST</span>
         </span>
