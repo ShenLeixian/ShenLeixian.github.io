@@ -69,7 +69,7 @@ function News () {
       </div>
       <div className="news">
           <span className="time">2025.05</span>
-          <span className="item">💬 Happy to join Microsoft as a research intern this summer, working with <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/nath/?msockid=3a3da8b9312861113d9dbb76304e6085" target="_blank">Dr. Nathalie Henry Riche</a>, <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/xingx/" target="_blank">Dr. Xing Xie</a>, and <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/yuyua/" target="_blank">Dr. Yuhui Yuan</a>. </span>
+          <span className="item">💬 Happy to join Microsoft as a research intern this summer, working with <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/nath/?msockid=3a3da8b9312861113d9dbb76304e6085" target="_blank">Dr. Nathalie Henry Riche</a>, <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/xingx/" target="_blank">Dr. Xing Xie</a>, and <a className="text-hl" href="https://scholar.google.com/citations?user=PzyvzksAAAAJ&hl" target="_blank">Dr. Yuhui Yuan</a>. </span>
         </div>
       <div className="news">
           <span className="time">2025.02</span>

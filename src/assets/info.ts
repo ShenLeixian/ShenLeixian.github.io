@@ -2,6 +2,38 @@ import { MATERIALS, PAPER, PATENT } from "../typings/types"
 
 export const paperList: PAPER[] = [
   {
+    "category": ["hai", 'selected'],
+    "thumb": "images/IAI.png",
+    "title": "Interaction-Augmented Instruction: Modeling the Synergy of Prompts and Interactions in Human-GenAI Collaboration",
+    "authorsA": "",
+    "authorsB": ", Yifang Wang, Huamin Qu, Xing Xie, Haotian Li",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "arXiv'25",
+    "full": "Preprint, 2025",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/IAI.pdf",
+      "arXiv": "https://arxiv.org/abs/2510.26069"
+    } as MATERIALS
+  },
+  {
+    "category": ["story","selected"],
+    "thumb": "images/ETGap.png",
+    "title": "How Does Empirical Research Facilitate Creation Tool Design? A Data Video Perspective",
+    "authorsA": "",
+    "authorsB": ", Leni Yang, Haotian Li, Yun Wang, Yuyu Luo, Huamin Qu",
+    "type": "Journal",
+    "year": 2025,
+    "abbr": "arXiv'25",
+    "full": "Preprint, 2025",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/ETGap.pdf",
+      "arXiv": "https://arxiv.org/abs/2507.15244"
+    } as MATERIALS
+  },
+  {
     "category": ["story", "hai", 'selected'],
     "thumb": "images/datavideosurvey.png",
     "title": "Reflecting on Design Paradigms of Animated Data Video Tools",
@@ -178,22 +210,6 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story","selected"],
-    "thumb": "images/ETGap.png",
-    "title": "How Does Empirical Research Facilitate Creation Tool Design? A Data Video Perspective",
-    "authorsA": "",
-    "authorsB": ", Leni Yang, Haotian Li, Yun Wang, Yuyu Luo, Huamin Qu",
-    "type": "Journal",
-    "year": 2025,
-    "abbr": "arXiv'25",
-    "full": "Preprint, 2025",
-    "honor": "",
-    "materials": {
-      "Paper": "./pdf/ETGap.pdf",
-      "arXiv": "https://arxiv.org/abs/2507.15244"
-    } as MATERIALS
-  },
-  {
     "category": ["story", "hai"],
     "thumb": "images/MetaRelation.png",
     "title": "Composing Data Stories with Meta Relations",
@@ -206,7 +222,6 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pdf/MetaRelation.pdf",
-      "Homepage": "https://nvbench2.github.io/",
       "arXiv": "https://arxiv.org/abs/2501.03603"
     } as MATERIALS
   },

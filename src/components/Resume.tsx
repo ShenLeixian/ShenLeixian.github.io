@@ -82,7 +82,7 @@ function Resume () {
             <br />
             <span>Research Intern in EPIC Group, Societal AI Group, and Visual Computing Group </span>
             <br />
-            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/nath/?msockid=3a3da8b9312861113d9dbb76304e6085" target="_blank">Dr. Nathalie Henry Riche</a> (in Seattle, online), <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/xingx/" target="_blank">Dr. Xing Xie</a>, and <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/yuyua/" target="_blank">Dr. Yuhui Yuan</a></span> 
+            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/nath/?msockid=3a3da8b9312861113d9dbb76304e6085" target="_blank">Dr. Nathalie Henry Riche</a> (in Seattle, online), <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/xingx/" target="_blank">Dr. Xing Xie</a>, and <a className="text-hl" href="https://scholar.google.com/citations?user=PzyvzksAAAAJ&hl" target="_blank">Dr. Yuhui Yuan</a></span> 
             <br />
           </span>
         </div>
@@ -306,48 +306,6 @@ function Resume () {
           </span>
         </div>
 
-        <h4>Fundings</h4>
-        <div className="entry">
-          <span className="time">2025.04 - 2026.05</span>
-          <span className="item">
-            <span>Accelerating Foundation Models Research Program, Core Contributor</span>
-            <br />
-            <span>"Understanding, Measuring, and Enhancing Human Agency in Human-AI Collaboration" ($ 45K USD)</span>
-          </span>
-        </div>
-        <div className="entry">
-          <span className="time">2023.06 - 2025.06</span>
-          <span className="item">
-            <span>HONG KONG Innovation and Technology Fund (ITF) Project, Core Contributor</span>
-            <br />
-            <span>"AI-Powered, Personalized Analysis and Feedback Platform for K-12 Education in Computational Thinking Skills ($ 450K HKD)</span>
-          </span>
-        </div>
-        <div className="entry">
-          <span className="time">2018.12 - 2019.12</span>
-          <span className="item">
-            <span>CERNET Next Generation Internet Technology Innovation Program, Principal Investigator</span>
-            <br />
-            <span>"Smart Library System Based on RFID and IPv6 Network" (¥ 100K CNY)</span>
-          </span>
-        </div>
-        <div className="entry">
-          <span className="time">2018.08 - 2019.08</span>
-          <span className="item">
-            <span>NJUPT-YTO Joint Laboratory Innovation Program, Principal Investigator</span>
-            <br />
-            <span>"Modern Logistics Management System Based on RFID and NB-IoT" (¥ 20K CNY)</span>
-          </span>
-        </div>
-        <div className="entry">
-          <span className="time">2018.05 - 2019.05</span>
-          <span className="item">
-            <span>National College Students Innovation and Entrepreneurship Training Program, Principal Investigator</span>
-            <br />
-            <span>"High-Precision Indoor Wireless Localization Based on UHF RFID" (¥ 20K CNY)</span>
-          </span>
-        </div>
-
     <h3>PUBLICATIONS</h3>
     <span
         style={{
@@ -431,6 +389,48 @@ function Resume () {
             </div>)
         })}
     </div>
+
+    {/* <h3>Fundings</h3>
+        <div className="entry">
+          <span className="time">2025.04 - 2026.05</span>
+          <span className="item">
+            <span>Accelerating Foundation Models Research Program, Core Contributor</span>
+            <br />
+            <span>"Understanding, Measuring, and Enhancing Human Agency in Human-AI Collaboration" ($ 45K USD)</span>
+          </span>
+        </div>
+        <div className="entry">
+          <span className="time">2023.06 - 2025.06</span>
+          <span className="item">
+            <span>HONG KONG Innovation and Technology Fund (ITF) Project, Core Contributor</span>
+            <br />
+            <span>"AI-Powered, Personalized Analysis and Feedback Platform for K-12 Education in Computational Thinking Skills" ($ 450K HKD)</span>
+          </span>
+        </div>
+        <div className="entry">
+          <span className="time">2018.12 - 2019.12</span>
+          <span className="item">
+            <span>CERNET Next Generation Internet Technology Innovation Program, Principal Investigator</span>
+            <br />
+            <span>"Smart Library System Based on RFID and IPv6 Network" (¥ 100K CNY)</span>
+          </span>
+        </div>
+        <div className="entry">
+          <span className="time">2018.08 - 2019.08</span>
+          <span className="item">
+            <span>NJUPT-YTO Joint Laboratory Innovation Program, Principal Investigator</span>
+            <br />
+            <span>"Modern Logistics Management System Based on RFID and NB-IoT" (¥ 20K CNY)</span>
+          </span>
+        </div>
+        <div className="entry">
+          <span className="time">2018.05 - 2019.05</span>
+          <span className="item">
+            <span>National College Students Innovation and Entrepreneurship Training Program, Principal Investigator</span>
+            <br />
+            <span>"High-Precision Indoor Wireless Localization Based on UHF RFID" (¥ 20K CNY)</span>
+          </span>
+        </div> */}
 
     <h3 id="talks">TALKS</h3>
     <div>
