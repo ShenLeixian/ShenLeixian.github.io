@@ -76,13 +76,25 @@ function Resume () {
       <div>
 
       <div className="entry">
+          <span className="time">2025.09 - 2026.01</span>
+          <span className="item">
+            <span className='cv-hl'>Microsoft Research Asia (MSRA), Beijing</span>
+            <br />
+            <span>Research Intern in Future Media Experience Group </span>
+            <br />
+            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/wangyun/" target="_blank">Dr. Yun Wang</a> (Hong Kong) and <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/yanlu/" target="_blank">Dr. Yan Lu</a></span> 
+            <br />
+          </span>
+        </div>
+
+      <div className="entry">
           <span className="time">2025.05 - 2025.09</span>
           <span className="item">
             <span className='cv-hl'>Microsoft Research Asia (MSRA), Beijing</span>
             <br />
             <span>Research Intern in EPIC Group, Societal AI Group, and Visual Computing Group </span>
             <br />
-            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/nath/?msockid=3a3da8b9312861113d9dbb76304e6085" target="_blank">Dr. Nathalie Henry Riche</a> (in Seattle, online), <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/xingx/" target="_blank">Dr. Xing Xie</a>, and <a className="text-hl" href="https://scholar.google.com/citations?user=PzyvzksAAAAJ&hl" target="_blank">Dr. Yuhui Yuan</a></span> 
+            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/nath/?msockid=3a3da8b9312861113d9dbb76304e6085" target="_blank">Dr. Nathalie Henry Riche</a> (Seattle, online), <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/xingx/" target="_blank">Dr. Xing Xie</a>, and <a className="text-hl" href="https://scholar.google.com/citations?user=PzyvzksAAAAJ&hl" target="_blank">Dr. Yuhui Yuan</a></span> 
             <br />
           </span>
         </div>
@@ -119,7 +131,7 @@ function Resume () {
       <div className="entry">
           <span className="time">2025</span>
           <span className="item">
-          <a className="text-hl" href="https://uist.acm.org/2025/" target="_blank">UIST 2025 Best Paper Honorable Mention</a> (Top 2%)
+          <a className="text-hl" href="https://uist.acm.org/2025/" target="_blank">ACM UIST 2025 Best Paper Honorable Mention</a> (Top 2%)
           </span>
         </div>
       <div className="entry">
@@ -522,19 +534,32 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className='cv-hl'>IEEE VIS</span> 2022-25, <span className='cv-hl'>CHI</span> 2024-26, <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>EuroVis</span> 2023-25, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>PacificVis</span> 2023, <span className='cv-hl'>PacificVis (TVCG track)</span> 2025-26, <span className='cv-hl'>IDC</span> 2024, <span className='cv-hl'>ChinaVis</span> 2022-25, <span className='cv-hl'>C&C</span> 2024, <span className='cv-hl'>ACM MM</span> 2025, <span className='cv-hl'>AAAI</span> 2025, <span className='cv-hl'>VRST</span> 2025
+          <span className='cv-hl'>IEEE VIS</span> 2022-25, <span className='cv-hl'>EuroVis</span> 2023-25, <span className='cv-hl'>PacificVis (including TVCG track)</span> 2023-26, <span className='cv-hl'>ChinaVis</span> 2022-25; 
           <br/>
-          * Two Special Recognitions for Outstanding Reviews for CHI 2024
+          <span className='cv-hl'>CHI</span> 2024-26 (Three Special Recognitions for Outstanding Reviews), <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>IDC</span> 2024; 
+		      <br/>
+          <span className='cv-hl'>C&C</span> 2024, <span className='cv-hl'>MM</span> 2025, <span className='cv-hl'>AAAI</span> 2025, <span className='cv-hl'>VRST</span> 2025
+          <br/>
         </span>
       </div>
     </div>
+    {/* <div>
+      <div className="entry">
+        <span className="time"></span>
+        <span className="item">
+          <span className='cv-hl'>IEEE VIS</span> 2022-25, <span className='cv-hl'>CHI</span> 2024-26, <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>EuroVis</span> 2023-25, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>PacificVis</span> 2023, <span className='cv-hl'>PacificVis (TVCG track)</span> 2025-26, <span className='cv-hl'>IDC</span> 2024, <span className='cv-hl'>ChinaVis</span> 2022-25, <span className='cv-hl'>C&C</span> 2024, <span className='cv-hl'>ACM MM</span> 2025, <span className='cv-hl'>AAAI</span> 2025, <span className='cv-hl'>VRST</span> 2025
+          <br/>
+          * Three Special Recognitions for Outstanding Reviews for CHI 2024 and CHI 2025
+        </span>
+      </div>
+    </div> */}
  
     <h4>Journal Reviewer</h4>
     <div>
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className='cv-hl'>TVCG</span>, <span className='cv-hl'>IJHCI</span>, <span className='cv-hl'>Visual Informatics</span>
+          <span className='cv-hl'>TVCG</span>, <span className='cv-hl'>IJHCI</span>, <span className='cv-hl'>Visual Informatics</span>, <span className='cv-hl'>Multimedia Systems</span>
         </span>
       </div>
     </div>

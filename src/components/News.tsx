@@ -48,12 +48,20 @@ function News () {
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
       <div className="news">
+          <span className="time">2026.01</span>
+          <span className="item">🎉 Two papers about <a className="text-hl" href="https://interaction-augmented-instruction.github.io/" target="_blank">Modeling the Synergy of Prompts and Interactions in Human-GenAI Collaboration</a> and <a className="text-hl" href="https://github.com/HKUSTDial/vistroubleshooting.github.io/" target="_blank">Debugging Defective Visualizations</a> were accepted to ACM CHI 2026! See you in Barcelona 🇪🇸! </span>
+      </div>
+      <div className="news">
+          <span className="time">2025.10</span>
+          <span className="item">💬 Attend UIST 2025 🇰🇷 and give a talk at <a className="text-hl" href="https://hcil.snu.ac.kr/" target="_blank">  Seoul National University HCI Lab</a>, thanks invitation by Prof. Jinwook Seo. </span>
+      </div>
+      <div className="news">
           <span className="time">2025.09</span>
           <span className="item">🎉 Our paper <a className="text-hl" href="https://nvbench2.github.io/" target="_blank">nvBench 2.0: Resolving Ambiguity in Text-to-Visualization through Stepwise Reasoning</a> was accepted to NeurIPS 2025! </span>
       </div>
       <div className="news">
           <span className="time">2025.09</span>
-          <span className="item">🎉 Our paper <a className="text-hl" href="https://zhang373.github.io/NeuroSync_Web/" target="_blank">NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification</a> in UIST 2025 won the 🏆 Best Paper Honorable Mention Award (Top 5%)!  </span>
+          <span className="item">🎉 Our paper <a className="text-hl" href="https://zhang373.github.io/NeuroSync_Web/" target="_blank">NeuroSync: Intent-Aware Code-Based Problem Solving via Direct LLM Understanding Modification</a> in UIST 2025 won the 🏆 Best Paper Honorable Mention Award (Top 2%)!  </span>
       </div>
       <div className="news">
           <span className="time">2025.07</span>

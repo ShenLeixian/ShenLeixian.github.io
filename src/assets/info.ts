@@ -8,13 +8,66 @@ export const paperList: PAPER[] = [
     "authorsA": "",
     "authorsB": ", Yifang Wang, Huamin Qu, Xing Xie, Haotian Li",
     "type": "Journal",
-    "year": 2025,
-    "abbr": "arXiv'25",
-    "full": "Preprint, 2025",
+    "year": 2026,
+    "abbr": "CHI'26",
+    "full": "The ACM CHI conference on Human Factors in Computing Systems, 2026",
     "honor": "",
     "materials": {
       "Paper": "./pdf/IAI.pdf",
-      "arXiv": "https://arxiv.org/abs/2510.26069"
+      "arXiv": "https://arxiv.org/abs/2510.26069",
+      "Homepage": "https://interaction-augmented-instruction.github.io/"
+    } as MATERIALS
+  },
+  {
+    "category": ["vda", "hai"],
+    "thumb": "images/vistroubleshooting.png",
+    "title": "Debugging Defective Visualizations: Empirical Insights Informing a Human-AI Co‑Debugging System ",
+    "authorsA": "Shuyu Shen, Sirong Lu, ",
+    "authorsB": "#, Yuyu Luo#",
+    "type": "Journal",
+    "year": 2026,
+    "abbr": "CHI'26",
+    "full": "The ACM CHI conference on Human Factors in Computing Systems, 2026",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/vistroubleshooting.pdf",
+      "arXiv": "https://arxiv.org/abs/2412.07673",
+      "Github": "https://github.com/HKUSTDial/vistroubleshooting.github.io/"
+    } as MATERIALS
+  },
+  {
+    "category": ["story", "hai"],
+    "thumb": "images/SceneLoom.png",
+    "title": "SceneLoom: Communicating Data with Scene Context",
+    "authorsA": "Lin Gao, ",
+    "authorsB": ", Yuheng Zhao, Jiexiang Lan, Huamin Qu, Siming Chen",
+    "type": "Journal",
+    "year": 2026,
+    "abbr": "TVCG'26",
+    "full": "IEEE Transactions on Visualization and Computer Graphics (Proc. IEEE VIS'25), 2026",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/SceneLoom.pdf",
+      "DOI": "https://doi.org/10.1109/TVCG.2025.3634816",
+      "arXiv": "https://arxiv.org/abs/2507.16466",
+      "Homepage": "https://lynnegao.me/scene-loom/"
+    } as MATERIALS
+  },
+  {
+    "category": ["hai", "story", 'selected'],
+    "thumb": "images/StoryLensEdu.png",
+    "title": "StoryLensEdu: Personalized Learning Report Generation through Narrative-Driven Multi-Agent Systems",
+    "authorsA": "",
+    "authorsB": "*, Yan Luo*, Rui Sheng, Yujia He, Haotian Li, Leni Yang, Huamin Qu",
+    "type": "Journal",
+    "year": 2026,
+    "abbr": "PacificVis'26",
+    "full": "IEEE Pacific Visualization Conference, 2026",
+    "honor": "",
+    "materials": {
+      // "Paper": "./pdf/Instructions.pdf",
+      // "DOI": "https://dl.acm.org/doi/10.1145/3706599.3720080",
+      // "arXiv": "https://arxiv.org/abs/2503.02874"
     } as MATERIALS
   },
   {
@@ -24,9 +77,9 @@ export const paperList: PAPER[] = [
     "authorsA": "",
     "authorsB": ", Leni Yang, Haotian Li, Yun Wang, Yuyu Luo, Huamin Qu",
     "type": "Journal",
-    "year": 2025,
-    "abbr": "arXiv'25",
-    "full": "Preprint, 2025",
+    "year": 2026,
+    "abbr": "arXiv'26",
+    "full": "Preprint, 2026",
     "honor": "",
     "materials": {
       "Paper": "./pdf/ETGap.pdf",
@@ -120,24 +173,6 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story", "hai"],
-    "thumb": "images/SceneLoom.png",
-    "title": "SceneLoom: Communicating Data with Scene Context",
-    "authorsA": "Lin Gao, ",
-    "authorsB": ", Yuheng Zhao, Jiexiang Lan, Huamin Qu, Siming Chen",
-    "type": "Journal",
-    "year": 2025,
-    "abbr": "TVCG'25",
-    "full": "IEEE Transactions on Visualization and Computer Graphics (Proc. IEEE VIS'25), 2025",
-    "honor": "",
-    "materials": {
-      "Paper": "./pdf/SceneLoom.pdf",
-      // "DOI": "https://doi.org/10.1109/TVCG.2025.3530512",
-      "arXiv": "https://arxiv.org/abs/2507.16466",
-      "Homepage": "https://lynnegao.me/scene-loom/"
-    } as MATERIALS
-  },
-  {
     "category": ["story"],
     "thumb": "images/NarrativePlayer.png",
     "title": "Narrative Player: Reviving Data Narratives with Visuals",
@@ -203,7 +238,7 @@ export const paperList: PAPER[] = [
     "honor": "",
     "materials": {
       "Paper": "./pdf/ChartMark.pdf",
-      // "DOI": "https://doi.org/10.1109/VIS55277.2024.00009",
+      "DOI": "https://doi.org/10.1109/VIS60296.2025.00068",
       "arXiv": "https://arxiv.org/abs/2507.21810",
       "Github": "https://github.com/HKUSTDial/ChartMark",
       "Homepage": "https://chartmark.github.io/"
@@ -350,23 +385,6 @@ export const paperList: PAPER[] = [
       "arXiv": "https://arxiv.org/abs/2405.07001",
       "Github": "https://github.com/HKUSTDial/ChartInsights",
       "Homepage": "https://chartinsight.github.io/"
-    } as MATERIALS
-  },
-  {
-    "category": ["vda", "hai"],
-    "thumb": "images/vistroubleshooting.png",
-    "title": "Ask Humans or AI? Exploring Their Roles in Visualization Troubleshooting",
-    "authorsA": "Shuyu Shen, Sirong Lu, ",
-    "authorsB": ", Zhonghua Sheng, Nan Tang, Yuyu Luo",
-    "type": "Journal",
-    "year": 2024,
-    "abbr": "arXiv'24",
-    "full": "Preprint, 2024",
-    "honor": "",
-    "materials": {
-      "Paper": "./pdf/vistroubleshooting.pdf",
-      "arXiv": "https://arxiv.org/abs/2412.07673",
-      "Github": "https://github.com/HKUSTDial/vistroubleshooting.github.io/"
     } as MATERIALS
   },
   {
