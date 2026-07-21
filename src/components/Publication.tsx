@@ -22,6 +22,10 @@ function Publication() {
       key: 'selected'
     },
     {
+      label: 'Human-AI Collaboration',
+      key: 'hai'
+    },
+    {
       label: 'Data Storytelling',
       key: 'story'
     },
@@ -30,9 +34,9 @@ function Publication() {
       key: 'vda'
     },
     {
-      label: 'Human-AI Collaboration',
-      key: 'hai'
-    }
+      label: 'AI for Education',
+      key: 'ai4edu'
+    },
   ]
 
   // const items: ITEM[] = [

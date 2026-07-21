@@ -113,6 +113,9 @@ function Paper (props: Props) {
                 case 'vda':
                   fullName = 'Visual Data Analysis';
                   break;
+                case 'ai4edu':
+                  fullName = 'AI for Education';
+                  break;
                 default:
                   fullName = cat;
               }

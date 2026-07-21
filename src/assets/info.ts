@@ -11,9 +11,10 @@ export const paperList: PAPER[] = [
     "year": 2026,
     "abbr": "CHI'26",
     "full": "The ACM CHI conference on Human Factors in Computing Systems, 2026",
-    "honor": "",
+    "honor": "Best Paper Honorable Mention (Top 5%)",
     "materials": {
       "Paper": "./pdf/IAI.pdf",
+      "DOI": "https://doi.org/10.1145/3772318.3790505",
       "arXiv": "https://arxiv.org/abs/2510.26069",
       "Homepage": "https://interaction-augmented-instruction.github.io/"
     } as MATERIALS
@@ -30,9 +31,45 @@ export const paperList: PAPER[] = [
     "full": "The ACM CHI conference on Human Factors in Computing Systems, 2026",
     "honor": "",
     "materials": {
-      "Paper": "./pdf/vistroubleshooting.pdf",
+      "Paper": "https://arxiv.org/pdf/2412.07673",
+      "DOI": "https://doi.org/10.1145/3772318.3791441",
       "arXiv": "https://arxiv.org/abs/2412.07673",
       "Github": "https://github.com/HKUSTDial/vistroubleshooting.github.io/"
+    } as MATERIALS
+  },
+  {
+    "category": ["hai"],
+    "thumb": "images/GenIAI.png",
+    "title": "Situated and Dynamic Human-AI Communication through Generative Interaction-Augmented Instruction at Runtime",
+    "authorsA": "Haotian Li, ",
+    "authorsB": ", Yifang Wang",
+    "type": "Journal",
+    "year": 2026,
+    "abbr": "CHI'26 Workshop",
+    "full": "CHI Workshop: What does Generative UI mean for HCI Practice? 2026",
+    "honor": "",
+    "materials": {
+      "Paper": "https://genuimeetshci.github.io/chi26-workshop/proposals/situated_dynamic_geniai_runtime_chi26_workshop.pdf",
+      // "DOI": "https://doi.org/10.1145/3772318.3790505",
+      // "arXiv": "https://arxiv.org/abs/2510.26069",
+      // "Homepage": "https://interaction-augmented-instruction.github.io/"
+    } as MATERIALS
+  },
+  {
+    "category": ["story", "hai"],
+    "thumb": "images/TRACE.png",
+    "title": " Tracking, Retrieving, and Auditing for Coherent Epics in Online Narratives",
+    "authorsA": "Qiqi Duan, Chen Wang, Yuxiang Luo, Nan Tang, ",
+    "authorsB": ", Yuyu Luo",
+    "type": "Journal",
+    "year": 2026,
+    "abbr": "CHI EA'26",
+    "full": "Extended Abstracts of the ACM CHI conference on Human Factors in Computing Systems, 2026",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/TRACE.pdf",
+      "DOI": "https://dl.acm.org/doi/10.1145/3772363.3798905",
+      // "arXiv": "https://arxiv.org/abs/2503.02874"
     } as MATERIALS
   },
   {
@@ -54,7 +91,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["hai", "story", 'selected'],
+    "category": ['ai4edu', "story", "hai", 'selected'],
     "thumb": "images/StoryLensEdu.png",
     "title": "StoryLensEdu: Personalized Learning Report Generation through Narrative-Driven Multi-Agent Systems",
     "authorsA": "",
@@ -65,9 +102,42 @@ export const paperList: PAPER[] = [
     "full": "IEEE Pacific Visualization Conference, 2026",
     "honor": "",
     "materials": {
-      // "Paper": "./pdf/Instructions.pdf",
-      // "DOI": "https://dl.acm.org/doi/10.1145/3706599.3720080",
+      "Paper": "./pdf/StoryLensEdu.pdf",
+      "DOI": "https://doi.org/10.1109/PacificVis68791.2026.00039",
       // "arXiv": "https://arxiv.org/abs/2503.02874"
+    } as MATERIALS
+  },
+  {
+    "category": ['ai4edu',"vda","hai"],
+    "thumb": "images/Beyond Correctness.png",
+    "title": "Beyond Correctness: A Stage-Aware Framework for Decoding Student Problem-Solving Processes from Handwriting Trajectories",
+    "authorsA": "Zhonghua Sheng*, Shuyu Shen*, Qiqi Duan, ",
+    "authorsB": "#, Xiaofu Jin, Pan Hui, Huamin Qu, Yuyu Luo",
+    "type": "Journal",
+    "year": 2026,
+    "abbr": "AIED'26",
+    "full": "International Conference on Artificial Intelligence in Education, 2026",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/Beyond_Correctness.pdf",
+      "DOI": "https://doi.org/10.1007/978-3-032-29763-1_15",
+      "Github": "https://github.com/DobbySquirrel/Beyond_Correctness"
+    } as MATERIALS
+  },
+  {
+    "category": ["vda"],
+    "thumb": "images/CAMV.png",
+    "title": "CAMV: A Framework for Context-Aware Multi-View Visualization of Data Analysis Results",
+    "authorsA": "Yanna Lin, Liwenhan Xie, ",
+    "authorsB": ", Zhuochen Jin, Sicheng Song, Zikun Deng, Huamin Qu, Ke Xu",
+    "type": "Journal",
+    "year": 2026,
+    "abbr": "DSE'26",
+    "full": "Data Science and Engineering, 2026",
+    "honor": "",
+    "materials": {
+      "Paper": "./pdf/CAMV.pdf",
+      "DOI": "https://doi.org/10.1007/s41019-026-00353-x"
     } as MATERIALS
   },
   {
@@ -208,7 +278,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["vda","hai"],
+    "category": ['ai4edu',"vda","hai"],
     "thumb": "images/ipen.png",
     "title": "Automatic Modeling and Analysis of Students' Problem-Solving Handwriting Trajectories",
     "authorsA": "Zhonghua Sheng*, Shuyu Shen*, ",
@@ -351,7 +421,7 @@ export const paperList: PAPER[] = [
     } as MATERIALS
   },
   {
-    "category": ["story", "hai"],
+    "category": ['ai4edu',"story", "hai"],
     "thumb": "images/NotePlayer.png",
     "title": "NotePlayer: Engaging Jupyter Notebooks for Dynamic Presentation of Analytical Processes",
     "authorsA": "Yang Ouyang, ",

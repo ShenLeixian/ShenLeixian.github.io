@@ -33,12 +33,13 @@ function App() {
       <div id="footer">
       <div style={{display: 'inline-block', alignItems: 'center', justifyContent: 'center', margin: '0 auto'}}>
       {/* <a href='https://clustrmaps.com/site/1bq3v'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=c8c7c7&w=150&t=n&d=LNDyveCbdQ7qI6V8UUwCmKVGKchQrNhLyKybxjZFctc&co=ffffff&ct=ffffff'/></a> */}
-      <a href='https://clustrmaps.com/site/1bq3v'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=c8c7c7&w=150&t=tt&d=LNDyveCbdQ7qI6V8UUwCmKVGKchQrNhLyKybxjZFctc&co=ffffff&ct=9f9090'/></a>
+      {/* <a href='https://clustrmaps.com/site/1bq3v'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=c8c7c7&w=150&t=tt&d=LNDyveCbdQ7qI6V8UUwCmKVGKchQrNhLyKybxjZFctc&co=ffffff&ct=9f9090'/></a> */}
+      <a href='https://mapmyvisitors.com/web/1c5nu'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=a8a8a8&w=a&t=n&d=jXjMyxPsbX9CiDf7BqFJPs40hrGp-Qb73LL0mpOfB84&co=ffffff&ct=877676'/></a>
     </div>
       <br/>
         Last updated by @ Leixian Shen: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short' })}
         <br/>
-        (Template from <a href='https://shuxinhuan.github.io/' >Prof. Xinhuan Shu</a>) 
+        {/* (Template from <a href='https://shuxinhuan.github.io/' >Prof. Xinhuan Shu</a>)  */}
       </div>
     </>
   )
