@@ -10,23 +10,35 @@ function Resume () {
       <h1>Leixian Shen</h1>
       <div className='contact'>
         <div className='address'>
-          <span>Department of Computer Science and Engineering</span>
-          <span>The Hong Kong University of Science and Technology</span>
-          <span>Big Data Institute</span>
-          <span>Lo Ka Chung University Center</span>
+          <span>Future Media Experience Group</span>
+          <span>Microsoft Research Asia</span>
+          <span>Building 2, Desk 14110, No. 5 Danling Street</span>
+          <span>Haidian District, Beijing 100080, China</span>
         </div>
         <div className='misc'>
-          <span>+852 61699642 <i className="fa-solid fa-phone"></i></span>
-          <span><a href="mailto:lshenaj@connect.ust.hk">lshenaj@connect.ust.hk <i className="fa-solid fa-envelope"></i></a></span>
+          <span><a href="mailto:leixianshen@microsoft.com">leixianshen@microsoft.com <i className="fa-solid fa-envelope"></i></a></span>
+          <span><a href="mailto:shenleixian@gmail.com">shenleixian@gmail.com <i className="fa-solid fa-envelope"></i></a></span>
           <span><a href='https://shenleixian.github.io/'>https://shenleixian.github.io/ <i className="fa-solid fa-globe"></i></a></span>
           <span><a href="https://scholar.google.com/citations?user=NxVwq4cAAAAJ&hl=en&sortby=pubdate">@Leixian Shen <i className="fa-solid fa-graduation-cap"></i></a></span>
+        </div>
+      </div>
+
+      <h3>Employment</h3>
+      <div>
+        <div className="entry">
+          <span className="time">2026.07 - present</span>
+          <span className="item">
+            <span className='cv-hl'>Microsoft Research Asia (MSRA), Beijing</span>
+            <br />
+            <span>Senior Researcher, Future Media Experience Group</span>
+          </span>
         </div>
       </div>
 
       <h3>Education</h3>
       <div>
         <div className="entry">
-          <span className="time">2023.08 - present</span>
+          <span className="time">2023.08 - 2026.07</span>
           <span className="item">
             <span className='cv-hl'>The Hong Kong University of Science and Technology (HKUST), Hong Kong</span>
             <br />
@@ -34,6 +46,8 @@ function Resume () {
             <br />
             <span><em>Advisor: </em><a className="text-hl" href="http://huamin.org/" target="_blank">Prof. Huamin Qu</a></span> 
             {/* in VisLab */}
+            <br />
+            <span><em>Thesis: </em>"Human Agency in the Age of AI: Towards Human-AI Co-Creation with High Control and High Automation"</span>
           </span>
         </div>
         <div className="entry">
@@ -88,13 +102,37 @@ function Resume () {
         </div>
 
       <div className="entry">
-          <span className="time">2025.05 - 2025.09</span>
+          <span className="time">2025.07 - 2025.09</span>
           <span className="item">
             <span className='cv-hl'>Microsoft Research Asia (MSRA), Beijing</span>
             <br />
-            <span>Research Intern in EPIC Group, Societal AI Group, and Visual Computing Group </span>
+            <span>Research Intern in Societal AI Group </span>
             <br />
-            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/nath/?msockid=3a3da8b9312861113d9dbb76304e6085" target="_blank">Dr. Nathalie Henry Riche</a> (Seattle, online), <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/xingx/" target="_blank">Dr. Xing Xie</a>, and <a className="text-hl" href="https://scholar.google.com/citations?user=PzyvzksAAAAJ&hl" target="_blank">Dr. Yuhui Yuan</a></span> 
+            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/xingx/" target="_blank">Dr. Xing Xie</a></span> 
+            <br />
+          </span>
+        </div>
+      
+        {/* <div className="entry">
+          <span className="time">2025.07 - 2025.09</span>
+          <span className="item">
+            <span className='cv-hl'>Microsoft Research Asia (MSRA), Beijing</span>
+            <br />
+            <span>Research Intern in Societal AI Group and Visual Computing Group </span>
+            <br />
+            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/xingx/" target="_blank">Dr. Xing Xie</a> and <a className="text-hl" href="https://scholar.google.com/citations?user=PzyvzksAAAAJ&hl" target="_blank">Dr. Yuhui Yuan</a></span> 
+            <br />
+          </span>
+        </div> */}
+
+      <div className="entry">
+          <span className="time">2025.05 - 2025.07</span>
+          <span className="item">
+            <span className='cv-hl'>Microsoft Research, Seattle</span>
+            <br />
+            <span>Research Intern in EPIC Group </span>
+            <br />
+            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/nath/?msockid=3a3da8b9312861113d9dbb76304e6085" target="_blank">Dr. Nathalie Henry Riche</a></span> 
             <br />
           </span>
         </div>
@@ -459,8 +497,15 @@ function Resume () {
 
     <h3 id="talks">TALKS</h3>
     <div>
-      <div className="entry">
+        <div className="entry">
         <span className="time">2026</span>
+        <span className="item">
+          <span className='cv-hl'>Human Agency in the Age of AI: Towards Human-AI Co-Creation with High Control and High Automation</span><br />
+            <em>Fudan University (2026.07), Shanghai, China</em>
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time"></span>
         <span className="item">
           <span className='cv-hl'>Human Agency in the Age of AI: Towards Human-AI Co-Creation with High Control and High Automation</span><br />
             <em>Guest Lecture for MSBD 5005 Data Visualization (2026.04), Hong Kong, China</em>
@@ -485,6 +530,13 @@ function Resume () {
         <span className="item">
           <span className='cv-hl'>Narration-Centric Design of Animated Data Videos with Human-AI Collaboration</span><br />
             <em>Seoul National University (2025.9), Seoul, Korea</em>
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time"></span>
+        <span className="item">
+          <span className='cv-hl'>How to conduct high-quality research</span><br />
+            <em>Tsinghua University (2025.5), Beijing, China</em>
         </span>
       </div>
       <div className="entry">

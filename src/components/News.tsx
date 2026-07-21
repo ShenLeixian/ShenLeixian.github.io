@@ -47,6 +47,10 @@ function News () {
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
       <div className="news">
+          <span className="time">2026.07</span>
+          <span className="item">🚩 I joined Microsoft Research Asia as a Senior Researcher in the Future Media Experience Group! </span>
+      </div>
+      <div className="news">
           <span className="time">2026.06</span>
           <span className="item">🚩 Defended my Ph.D. dissertation: Human Agency in the Age of AI: Towards Human-AI Co-Creation with High Control and High Automation. </span>
       </div>
