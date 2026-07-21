@@ -129,6 +129,18 @@ function Resume () {
       <h4>Honors and Scholarships</h4>
       <div>
       <div className="entry">
+          <span className="time">2026</span>
+          <span className="item">
+          HKUST RedBird Academic Excellence Award (HKD 20k)
+          </span>
+        </div>
+      <div className="entry">
+          <span className="time">2026</span>
+          <span className="item">
+          <a className="text-hl" href="https://chi2026.acm.org/" target="_blank">ACM CHI 2026 Best Paper Honorable Mention</a> (Top 5%)
+          </span>
+        </div>
+      <div className="entry">
           <span className="time">2025</span>
           <span className="item">
           <a className="text-hl" href="https://uist.acm.org/2025/" target="_blank">ACM UIST 2025 Best Paper Honorable Mention</a> (Top 2%)
@@ -137,7 +149,7 @@ function Resume () {
       <div className="entry">
           <span className="time">2025</span>
           <span className="item">
-          HKUST RedBird Academic Excellence Award (HKD 20K)
+          HKUST RedBird Academic Excellence Award (HKD 20k)
           </span>
         </div>
       <div className="entry">
@@ -444,10 +456,32 @@ function Resume () {
           </span>
         </div> */}
 
+
     <h3 id="talks">TALKS</h3>
     <div>
       <div className="entry">
+        <span className="time">2026</span>
+        <span className="item">
+          <span className='cv-hl'>Human Agency in the Age of AI: Towards Human-AI Co-Creation with High Control and High Automation</span><br />
+            <em>Guest Lecture for MSBD 5005 Data Visualization (2026.04), Hong Kong, China</em>
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time"></span>
+        <span className="item">
+          <span className='cv-hl'>Interaction-Augmented Instruction: Modeling the Synergy of Prompts and Interactions in Human-GenAI Collaboration</span><br />
+            <em>ACM CHI Conference (2026.4), Barcelona, Spain</em>
+        </span>
+      </div>
+      <div className="entry">
         <span className="time">2025</span>
+        <span className="item">
+          <span className='cv-hl'>Human Agency in the Age of AI: Towards Human-AI Co-Creation with High Control and High Automation</span><br />
+            <em>Microsoft Research Asia (2025.11), Beijing, China</em>
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time"></span>
         <span className="item">
           <span className='cv-hl'>Narration-Centric Design of Animated Data Videos with Human-AI Collaboration</span><br />
             <em>Seoul National University (2025.9), Seoul, Korea</em>
@@ -534,9 +568,9 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className='cv-hl'>IEEE VIS</span> 2022-25, <span className='cv-hl'>EuroVis</span> 2023-25, <span className='cv-hl'>PacificVis (including TVCG track)</span> 2023-26, <span className='cv-hl'>ChinaVis</span> 2022-25; 
+          <span className='cv-hl'>IEEE VIS</span> 2022-26, <span className='cv-hl'>EuroVis</span> 2023-25, <span className='cv-hl'>PacificVis (including TVCG track)</span> 2023-26, <span className='cv-hl'>ChinaVis</span> 2022-26; 
           <br/>
-          <span className='cv-hl'>CHI</span> 2024-26 (Three Special Recognitions for Outstanding Reviews), <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>IDC</span> 2024; 
+          <span className='cv-hl'>CHI</span> 2024-26 (Three Special Recognitions for Outstanding Reviews), <span className='cv-hl'>UIST</span> 2026, <span className='cv-hl'>CSCW</span> 2023, <span className='cv-hl'>IUI</span> 2023, <span className='cv-hl'>IDC</span> 2024; 
 		      <br/>
           <span className='cv-hl'>C&C</span> 2024, <span className='cv-hl'>MM</span> 2025, <span className='cv-hl'>AAAI</span> 2025, <span className='cv-hl'>VRST</span> 2025
           <br/>
@@ -559,7 +593,7 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-          <span className='cv-hl'>TVCG</span>, <span className='cv-hl'>IJHCI</span>, <span className='cv-hl'>Visual Informatics</span>, <span className='cv-hl'>Multimedia Systems</span>
+          <span className='cv-hl'>TVCG</span>, <span className='cv-hl'>CGA</span>, <span className='cv-hl'>IJHCI</span>, <span className='cv-hl'>Visual Informatics</span>, <span className='cv-hl'>The Visual Computer</span>, <span className='cv-hl'>Multimedia Systems</span>
         </span>
       </div>
     </div>
@@ -579,19 +613,25 @@ function Resume () {
       <div className="entry">
         <span className="time">2023</span>
         <span className="item">
-          <span className='cv-hl'>TA for COMP4431 Multimedia Computing, HKUST</span>
+          <span className='cv-hl'>Teaching Assistant for COMP4431 Multimedia Computing, HKUST</span>
         </span>
       </div>
       <div className="entry">
         <span className="time">2024</span>
         <span className="item">
-          <span className='cv-hl'>TA for COMP3631 Cryptography, HKUST</span>
+          <span className='cv-hl'>Teaching Assistant for COMP3631 Cryptography, HKUST</span>
         </span>
       </div>
       <div className="entry">
         <span className="time">2025</span>
         <span className="item">
-          <span className='cv-hl'>TA for COMP3631 Cryptography, HKUST</span>
+          <span className='cv-hl'>Teaching Assistant for COMP3631 Cryptography, HKUST</span>
+        </span>
+      </div>
+      <div className="entry">
+        <span className="time">2026</span>
+        <span className="item">
+          <span className='cv-hl'>Guest Lecture for MSBD 5005 Data Visualization, HKUST</span>
         </span>
       </div>
     </div>
