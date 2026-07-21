@@ -48,6 +48,10 @@ function News () {
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
       <div className="news">
+          <span className="time">2026.07</span>
+          <span className="item">🎉 I joined Microsoft Research Asia as a Senior Researcher in the Future Media Experience Group! </span>
+      </div>
+      <div className="news">
           <span className="time">2026.01</span>
           <span className="item">🎉 Two papers about <a className="text-hl" href="https://interaction-augmented-instruction.github.io/" target="_blank">Modeling the Synergy of Prompts and Interactions in Human-GenAI Collaboration</a> and <a className="text-hl" href="https://github.com/HKUSTDial/vistroubleshooting.github.io/" target="_blank">Debugging Defective Visualizations</a> were accepted to ACM CHI 2026! See you in Barcelona 🇪🇸! </span>
       </div>
