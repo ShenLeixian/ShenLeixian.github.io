@@ -1,7 +1,7 @@
 import { Row, Col } from "antd"
 import { PAPER } from "../typings/types"
 import './Publication.css'
-import { FilePdfOutlined, HomeOutlined, VideoCameraOutlined, GlobalOutlined, GithubOutlined, SnippetsOutlined, PrinterOutlined, PaperClipOutlined, StarFilled} from '@ant-design/icons';
+import { FilePdfOutlined, HomeOutlined, VideoCameraOutlined, GlobalOutlined, GithubOutlined, SnippetsOutlined, PrinterOutlined, PaperClipOutlined, StarFilled, NotificationOutlined } from '@ant-design/icons';
 
 interface Props {
   selected: PAPER
@@ -28,6 +28,8 @@ function Paper (props: Props) {
         return <SnippetsOutlined />
       case 'Demo':
         return <GlobalOutlined />
+      case 'Press':
+        return <NotificationOutlined />
       default:
         return <SnippetsOutlined />
     }

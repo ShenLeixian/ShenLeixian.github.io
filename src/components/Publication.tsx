@@ -95,7 +95,7 @@ function Publication() {
     <div id="publication">
       <Divider />
       <div className="sec-title"><span className="bg-hl">Research</span></div>
-      <div style={{ marginTop: '1rem' }}>
+      <div className="tag-list" style={{ marginTop: '1rem' }}>
         {items.map((item: ITEM) => {
           return (
             <button

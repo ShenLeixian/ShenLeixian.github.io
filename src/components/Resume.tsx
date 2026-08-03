@@ -96,7 +96,7 @@ function Resume () {
             <br />
             <span>Research Intern in Future Media Experience Group </span>
             <br />
-            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/wangyun/" target="_blank">Dr. Yun Wang</a> (Hong Kong) and <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/yanlu/" target="_blank">Dr. Yan Lu</a></span> 
+            <span><em>Advisor: </em><a className="text-hl" href="https://www.microsoft.com/en-us/research/people/yanlu/" target="_blank">Dr. Yan Lu</a> and <a className="text-hl" href="https://www.microsoft.com/en-us/research/people/wangyun/" target="_blank">Dr. Yun Wang</a> (Hong Kong)</span> 
             <br />
           </span>
         </div>
@@ -502,6 +502,15 @@ function Resume () {
         <span className="item">
           <span className='cv-hl'>Human Agency in the Age of AI: Towards Human-AI Co-Creation with High Control and High Automation</span><br />
             <em>Fudan University (2026.07), Shanghai, China</em>
+            <a
+              className="text-hl"
+              href="https://mp.weixin.qq.com/s/uA6hW9QbHEVPigWqVKRiRA"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontSize: '0.8em', marginLeft: 6 }}
+            >
+              [summary]
+            </a>
         </span>
       </div>
       <div className="entry">
@@ -544,6 +553,15 @@ function Resume () {
         <span className="item">
           <span className='cv-hl'>Narration-Centric Design of Animated Data Videos with Human-AI Collaboration</span><br />
             <em>CSIG Sharing Forum (2025.5), Online</em>
+            <a
+              className="text-hl"
+              href="https://mp.weixin.qq.com/s/pAs1N_23znDBrmHP4NDPoA"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontSize: '0.8em', marginLeft: 6 }}
+            >
+              [summary]
+            </a>
         </span>
       </div>
       <div className="entry">

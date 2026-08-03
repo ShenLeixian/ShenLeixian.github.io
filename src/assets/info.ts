@@ -16,7 +16,8 @@ export const paperList: PAPER[] = [
       "Paper": "./pdf/IAI.pdf",
       "DOI": "https://doi.org/10.1145/3772318.3790505",
       "arXiv": "https://arxiv.org/abs/2510.26069",
-      "Homepage": "https://interaction-augmented-instruction.github.io/"
+      "Homepage": "https://interaction-augmented-instruction.github.io/",
+      "Press": "https://mp.weixin.qq.com/s/aA8K6gy2BJsGUjh69jL8-Q"
     } as MATERIALS
   },
   {
@@ -170,7 +171,8 @@ export const paperList: PAPER[] = [
     "materials": {
       "Paper": "./pdf/DV_Survey.pdf",
       "DOI": "https://doi.org/10.1145/3706598.3713449",
-      "arXiv": "https://arxiv.org/abs/2502.04801"
+      "arXiv": "https://arxiv.org/abs/2502.04801",
+      "Press": "https://mp.weixin.qq.com/s/owoxoJAHLuhssOwchdcHWA"
     } as MATERIALS
   },
   {
@@ -187,7 +189,8 @@ export const paperList: PAPER[] = [
     "materials": {
       "Paper": "./pdf/Instructions.pdf",
       "DOI": "https://dl.acm.org/doi/10.1145/3706599.3720080",
-      "arXiv": "https://arxiv.org/abs/2503.02874"
+      "arXiv": "https://arxiv.org/abs/2503.02874",
+      "Press": "https://mp.weixin.qq.com/s/owoxoJAHLuhssOwchdcHWA"
     } as MATERIALS
   },
   {
@@ -221,7 +224,8 @@ export const paperList: PAPER[] = [
       "Paper": "./pdf/NeuroSync.pdf",
       "DOI": "https://dl.acm.org/doi/10.1145/3746059.3747668",
       "arXiv": "https://arxiv.org/abs/2508.02823",
-      "Homepage": "https://zhang373.github.io/NeuroSync_Web/"
+      "Homepage": "https://zhang373.github.io/NeuroSync_Web/",
+      "Press": "https://mp.weixin.qq.com/s/0T8Wiyun1yle1hMDBQ9mVw"
     } as MATERIALS
   },
   {
@@ -239,7 +243,8 @@ export const paperList: PAPER[] = [
       "Paper": "./pdf/paperbridge.pdf",
       "DOI": "https://dl.acm.org/doi/10.1145/3746059.3747713",
       "arXiv": "https://arxiv.org/abs/2507.14527",
-      "Homepage": "https://www.youtube.com/watch?v=dN8BIjsodwE"
+      "Homepage": "https://www.youtube.com/watch?v=dN8BIjsodwE",
+      "Press": "https://mp.weixin.qq.com/s/XxUoFEx3JDpTO-5AAqGvOw"
     } as MATERIALS
   },
   {
@@ -417,7 +422,8 @@ export const paperList: PAPER[] = [
       "DOI": "https://doi.org/10.1109/VIS55277.2024.00009",
       "arXiv": "https://arxiv.org/abs/2406.11637",
       "Github": "https://github.com/Kanaries/pygwalker",
-      "Homepage": "https://kanaries.net/pygwalker"
+      "Homepage": "https://kanaries.net/pygwalker",
+      "Press": "https://cse.hkust.edu.hk/News/IEEEVIS2024/"
     } as MATERIALS
   },
   {
@@ -558,7 +564,8 @@ export const paperList: PAPER[] = [
       "Paper": "https://rdcu.be/cVxfr",
       "DOI": "https://doi.org/10.1007/s41019-022-00195-3",
       "arXiv": "https://arxiv.org/abs/2205.03183",
-      "Github": "https://github.com/ShenLeixian/TaskVis"
+      "Github": "https://github.com/ShenLeixian/TaskVis",
+      "Press": "https://mp.weixin.qq.com/s/_skvihtfKRv82SpBk5KqEg"
     } as MATERIALS
   },
   {
