@@ -3,6 +3,24 @@ import { MATERIALS, PAPER, PATENT } from "../typings/types"
 export const paperList: PAPER[] = [
   {
     "category": ["hai", 'selected'],
+    "thumb": "images/liveartifact.png",
+    "title": "Live Artifacts: Authoring Dynamic Media via Live Layers Encapsulating Generative Specifications",
+    "authorsA": "",
+    "authorsB": ", Haotian Li, Hugo Romat, Fanny Chevalier, Nicolai Marquardt, Nathalie Riche",
+    "type": "Journal",
+    "year": 2026,
+    "abbr": "arXiv'26",
+    "full": "Preprint, 2026",
+    "honor": "",
+    "materials": {
+      "Paper": "https://arxiv.org/pdf/2608.20880",
+      // "DOI": "https://doi.org/10.1145/3772318.3790505",
+      "arXiv": "https://arxiv.org/abs/2608.20880",
+      // "Homepage": "https://interaction-augmented-instruction.github.io/"
+    } as MATERIALS
+  },
+  {
+    "category": ["hai", 'selected'],
     "thumb": "images/IAI.png",
     "title": "Interaction-Augmented Instruction: Modeling the Synergy of Prompts and Interactions in Human-GenAI Collaboration",
     "authorsA": "",

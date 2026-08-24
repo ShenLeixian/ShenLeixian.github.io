@@ -47,6 +47,10 @@ function News () {
       <div className="sec-title"><span className="bg-hl">News</span></div>
       <div className="content">
       <div className="news">
+          <span className="time">2026.08</span>
+          <span className="item">💬  Glad to serve as an assoiate chair of ACM CHI 2027. </span>
+        </div>
+      <div className="news">
           <span className="time">2026.07</span>
           <span className="item">🚩 I joined Microsoft Research Asia as a Senior Researcher in the Future Media Experience Group! </span>
       </div>

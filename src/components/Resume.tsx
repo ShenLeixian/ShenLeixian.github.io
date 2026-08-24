@@ -628,7 +628,7 @@ function Resume () {
       <div className="entry">
         <span className="time"></span>
         <span className="item">
-        <span className='cv-hl'>ACM C&C </span> 2025, <span className='cv-hl'>AIED</span> 2025, <span className='cv-hl'>ACM CHI LBW </span> 2024
+        <span className='cv-hl'>ACM CHI </span> 2027, <span className='cv-hl'>ACM C&C </span> 2025, <span className='cv-hl'>AIED</span> 2025, <span className='cv-hl'>ACM CHI LBW </span> 2024
         </span>
       </div>
     </div>
