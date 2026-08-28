@@ -1,6 +1,6 @@
 import { Divider } from "antd"
 import { useState } from "react"
-import { paperList } from "../assets/info.ts"
+import { paperList, thesis } from "../assets/info.ts"
 import { PAPER, paperCategory } from '../typings/types'
 import Paper from "./Paper.tsx"
 
@@ -121,8 +121,6 @@ function Publication() {
         (* denotes equal contribution, # denotes corresponding author)
       </span>
 
-
-
       {/* <div className="paper-list">
         {getPaperList(current).map((paper: PAPER) => 
           <Paper
@@ -136,10 +134,11 @@ function Publication() {
         {[2026, 2025, 2024, 2023, 2022, 2021].map((y: number) => {
           const paperByYear = getPaperList(current).filter((p: PAPER) => p.year === y);
 
-          if (paperByYear.length > 0) {
+          if (paperByYear.length > 0 || thesis.year === y) {
             return (
               <div key={y}>
                 <h2>{y}</h2>
+                {thesis.year === y && <Paper selected={thesis} />}
                 {paperByYear.map((paper: PAPER) => (
                   <Paper
                     key={paper.title}

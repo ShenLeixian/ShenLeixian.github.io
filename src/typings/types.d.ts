@@ -1,5 +1,6 @@
 interface MATERIALS {
   Paper?: string;
+  Thesis?: string;
   [key]?: string;
 }
 

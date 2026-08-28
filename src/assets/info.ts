@@ -1,8 +1,27 @@
 import { MATERIALS, PAPER, PATENT } from "../typings/types"
 
+export const thesis: PAPER = {
+  "category": [],
+  "thumb": "images/thesis.png",
+  "title": "Human Agency in the Age of AI: Towards Human-AI Co-Creation with High Control and High Automation",
+  "authorsA": "",
+  "authorsB": "",
+  "type": "Other",
+  "year": 2026,
+  "abbr": "",
+  "full": "Ph.D. Thesis, The Hong Kong University of Science and Technology, 2026",
+  "honor": "",
+  "materials": {
+    "About": "https://cse.hkust.edu.hk/pg/defenses/Summer26/lshenaj-25-06-2026.html",
+    "Thesis": "./pdf/PhD_Thesis.pdf",
+    "Slides": "./pdf/Thesis_Slides.pdf",
+    "Press": "https://mp.weixin.qq.com/s/uA6hW9QbHEVPigWqVKRiRA"
+  } as MATERIALS
+}
+
 export const paperList: PAPER[] = [
   {
-    "category": ["hai", 'selected'],
+    "category": ["hai", 'selected', "story"],
     "thumb": "images/liveartifact.png",
     "title": "Live Artifacts: Authoring Dynamic Media via Live Layers Encapsulating Generative Specifications",
     "authorsA": "",
@@ -41,7 +60,7 @@ export const paperList: PAPER[] = [
   {
     "category": ["vda", "hai"],
     "thumb": "images/vistroubleshooting.png",
-    "title": "Debugging Defective Visualizations: Empirical Insights Informing a Human-AI Co‑Debugging System ",
+    "title": "Debugging Defective Visualizations: Empirical Insights Informing a Human-AI Co‑Debugging System",
     "authorsA": "Shuyu Shen, Sirong Lu, ",
     "authorsB": "#, Yuyu Luo#",
     "type": "Journal",
